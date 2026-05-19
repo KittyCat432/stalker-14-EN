@@ -10,3 +10,4 @@
   - type: Clothing
     sprite: _Stalker_EN/Objects/Clothing/Eyes/big_berill_goggles.rsi
   - type: EyeProtection
+  - type: Craftable

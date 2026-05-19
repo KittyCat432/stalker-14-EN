@@ -21,4 +21,5 @@
     - Snout
   - type: SlotBlockOverride
     tag: BlockMask
+  - type: Craftable
 
