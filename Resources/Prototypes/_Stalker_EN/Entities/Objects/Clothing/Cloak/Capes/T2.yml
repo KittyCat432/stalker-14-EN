@@ -269,6 +269,6 @@
   name: Duty Scout Poncho
   components:
   - type: Sprite
-    sprite: _Stalker_EN/Objects/Clothing/cloak/scout_duty_cloak.rsi
+    sprite: _Stalker_EN/Objects/Clothing/cloak/Scout_Duty_Cloak.rsi
   - type: Clothing
-    sprite: _Stalker_EN/Objects/Clothing/cloak/scout_duty_cloak.rsi
+    sprite: _Stalker_EN/Objects/Clothing/cloak/Scout_Duty_Cloak.rsi
