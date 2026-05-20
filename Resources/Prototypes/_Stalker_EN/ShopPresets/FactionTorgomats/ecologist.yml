@@ -113,8 +113,6 @@
     - name: shop-category-weapons
       priority: 1
       items:
-        # Melee
-        STCombatKnife: 10
         # Pistols
         WeaponPistolStalkerGlock: 200
         STWeaponRevolverRugerRedhawk: 750
@@ -213,6 +211,7 @@
         DrinkLemonadehBottleFull: 50
         STFoodMeatSalami: 350
         HerculesBottleFull: 200
+        DrinkGlass: 50
 
     - name: shop-category-armor
       priority: 6

@@ -179,7 +179,7 @@
     state: curl
   alphaOverLifetime:
     - time: 0.0
-      value: 0.25
+      value: 0.3
     - time: 1
       value: 0
   startColor: "#3F5636"
@@ -187,11 +187,11 @@
   lifetimeVariance: 0.25
   speed: 1.5
   speedVariance: 0.25
-  particleSize: 0.7
+  particleSize: 0.75
   sizeVariance: 0.25
   stretchFactor: 0
   emissionRate: 5
-  maxCount: 3
+  maxCount: 5
   burst: false
   duration: 0
   gravity: 0

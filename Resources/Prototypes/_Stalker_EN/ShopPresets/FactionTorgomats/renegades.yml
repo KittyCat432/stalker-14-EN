@@ -221,6 +221,7 @@
       DrinkLemonadehBottleFull: 50
       STFoodMeatSalami: 350
       HerculesBottleFull: 200
+      DrinkGlass: 50
 
   - name: shop-category-armor
     priority: 6
@@ -343,11 +344,11 @@
   - name: shop-category-grenades
     priority: 12
     items:
-      KhattabkaGrenade: 350
+      KhattabkaGrenade: 250
       DG05SmokeGrenade: 225
       TearGasGrenadeStalker: 750
-      RGD5Grenade: 1000
-      DynamiteOne: 1000
+      DynamiteOne: 900
+      DynamiteTwo: 1400
 
   - name: shop-category-customization
     priority: 13
@@ -429,8 +430,16 @@
     items:
       STCookingLiverTartare: 2000
 
-  - name: Smokables #explained using D&D lifestyle expenses
+  - name: shop-category-entertainment
     priority: 14
+    items:
+      BanjoInstrument: 500
+      CardDeckBlack: 100
+      DiceBag: 50
+      CasseteRenegade: 500
+
+  - name: Smokables #explained using D&D lifestyle expenses
+    priority: 15
     items:
       CigPackBub: 250 #comfortable
       CigPackGreen: 150 #poor
@@ -490,12 +499,3 @@
       # ARMOR
       STClothingOuterArmorLightPlateVestBasePSZ7rene: 22
       ClothingNeckToothNecklace: 1
-  # - name: shop-category-storage-and-containers
-  #   priority: 7
-  #   items:
-
-
-
-
-
-

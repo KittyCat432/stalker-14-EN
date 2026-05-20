@@ -301,6 +301,7 @@
         FoodSTTomato: 75
         STDrinkJar: 300
         HerculesBottleFull: 200
+        DrinkGlass: 50
 
     - name: shop-category-armor
       priority: 6
@@ -426,10 +427,9 @@
         SnapPop: 50
         CraftGunpowderBank: 500
         CraftMaterialGunpowder: 200
-        KhattabkaGrenade: 350
-        DG05SmokeGrenade: 500
-        RGD5Grenade: 1000
-        DynamiteOne: 1500
+        KhattabkaGrenade: 250
+        DG05SmokeGrenade: 400
+        RGD5Grenade: 900
 
     - name: shop-category-customization
       priority: 13

@@ -92,8 +92,6 @@
       - Monolith
     - type: Bands
       band: Stalker
-      altBand: stalker
-      canChange: true
       bandIcon: monolith
       bandProto: STMonolithBand
       bandRankId: 2

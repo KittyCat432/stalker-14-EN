@@ -210,6 +210,7 @@
         DrinkLemonadehBottleFull: 50
         STFoodMeatSalami: 350
         HerculesBottleFull: 200
+        DrinkGlass: 50
 
     - name: shop-category-armor
       priority: 6
@@ -339,7 +340,7 @@
     - name: shop-category-grenades
       priority: 13
       items:
-        KhattabkaGrenade: 550
+        KhattabkaGrenade: 450
         DG05SmokeGrenade: 425
 
     - name: shop-category-customization
