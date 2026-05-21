@@ -3051,5 +3051,15 @@
   id: 337
   time: '2026-05-20T04:59:46.511412+00:00'
   url: https://github.com/stalker-14-EN/stalker-14-EN/pull/934
+- author: TheCookieChicken
+  changes:
+  - message: Tweaked the "GoodOintment", removed the stray pixel in the png
+    type: Tweak
+  - message: <img width="32" height="32" alt="ointment" src="https://github.com/user-attachments/assets/57e37d99-a022-4fcd-b1bf-b964c4612126"
+      />
+    type: Add
+  id: 338
+  time: '2026-05-21T22:11:50.690399+00:00'
+  url: https://github.com/stalker-14-EN/stalker-14-EN/pull/942
 Name: Stalker
 Order: -1
