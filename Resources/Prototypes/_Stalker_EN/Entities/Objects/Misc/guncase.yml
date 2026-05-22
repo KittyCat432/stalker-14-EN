@@ -24,8 +24,13 @@
     - 0,3,7,4
     whitelist:
       components:
-        - Gun
-        - BallisticAmmoProvider
+      - Gun
+      - BallisticAmmoProvider
+      - STWeaponModule
+      tags:
+      - HandGrenade
+  - type: Clothing
+    slots: BACK
   - type: Item
     size: Ginormous
     shape:
@@ -55,8 +60,13 @@
     - 0,6,7,7
     whitelist:
       components:
-        - Gun
-        - BallisticAmmoProvider
+      - Gun
+      - BallisticAmmoProvider
+      - STWeaponModule
+      tags:
+      - HandGrenade
+  - type: Clothing
+    slots: BACK
 
 - type: entity
   parent: StalkerGunCaseBase
@@ -75,15 +85,21 @@
   - type: Storage
     maxItemSize: Large
     grid:
-    - 0,0,0,7
+    - 0,0,0,11
     - 2,0,9,1
     - 2,3,9,4
     - 2,6,9,7
-    - 11,0,11,7
+    - 2,9,9,10
+    - 11,0,11,11
     whitelist:
       components:
       - Gun
       - BallisticAmmoProvider
+      - STWeaponModule
+      tags:
+      - HandGrenade
+  - type: Clothing
+    slots: BACK
 
 - type: entity
   parent: StalkerGunCaseBase
@@ -102,12 +118,18 @@
   - type: Storage
     maxItemSize: Large
     grid:
-    - 0,0,0,7
+    - 0,0,0,11
     - 2,0,9,1
     - 2,3,9,4
     - 2,6,9,7
-    - 11,0,11,7
+    - 2,9,9,10
+    - 11,0,11,11
     whitelist:
       components:
       - Gun
       - BallisticAmmoProvider
+      - STWeaponModule
+      tags:
+      - HandGrenade
+  - type: Clothing
+    slots: BACK
