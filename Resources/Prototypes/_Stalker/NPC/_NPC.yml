@@ -178,9 +178,9 @@
     interfaces:
       enum.ShopUiKey.Key:
         type: ShopBoundUserInterface
-  # - type: Shop  #Commented, shop-preset wiped
-    # moneyId: Roubles
-    # shopPresetId: NpcTourist  #If you uncomment it - CHANGE SHOP PRESET
+  - type: Shop
+    moneyId: Roubles
+    shopPresetId: STTownTouristEN # EN
   - type: TypingIndicator
     proto: robot
   - type: TTS # Corvax-TTS
@@ -217,10 +217,9 @@
     interfaces:
       enum.ShopUiKey.Key:
         type: ShopBoundUserInterface
-  # - type: Shop  #Commented, shop-preset wiped
-    # moneyId: Roubles
-    # permitId: hunterLicense
-    # shopPresetId: NpcGunmith  #If you uncomment it - CHANGE SHOP PRESET
+  - type: Shop
+    moneyId: Roubles
+    shopPresetId: STTownPGunsmithEN #EN
   - type: TypingIndicator
     proto: robot
   - type: TTS # Corvax-TTS
@@ -338,9 +337,9 @@
     interfaces:
       enum.ShopUiKey.Key:
         type: ShopBoundUserInterface
-  # - type: Shop  #Commented, shop-preset wiped
-    # moneyId: Roubles
-    # shopPresetId: NpcGrocer  #If you uncomment it - CHANGE SHOP PRESET
+  - type: Shop
+    moneyId: Roubles
+    shopPresetId: STTownGrocerEN # EN
   - type: TypingIndicator
     proto: robot
   - type: TTS # Corvax-TTS
@@ -377,9 +376,9 @@
     interfaces:
       enum.ShopUiKey.Key:
         type: ShopBoundUserInterface
-  # - type: Shop  #Commented, shop-preset wiped
-    # moneyId: Roubles
-    # shopPresetId: NpcClothingSalesMan  #If you uncomment it - CHANGE SHOP PRESET
+  - type: Shop
+    moneyId: Roubles
+    shopPresetId: STTownClothingSalesmanEN # EN
   - type: TypingIndicator
     proto: robot
   - type: TTS # Corvax-TTS
@@ -417,9 +416,9 @@
     interfaces:
       enum.ShopUiKey.Key:
         type: ShopBoundUserInterface
-  # - type: Shop  #Commented, shop-preset wiped
-    # moneyId: Roubles
-    # shopPresetId: NpcPharmacist  #If you uncomment it - CHANGE SHOP PRESET
+  - type: Shop
+    moneyId: Roubles
+    shopPresetId: STTownPharmacyEN # EN
   - type: TypingIndicator
     proto: robot
   - type: TTS # Corvax-TTS
