@@ -39,7 +39,7 @@
         Shock: 0.60
         Compression: 0.7
   - type: GrantsArtifactSlots
-    slots: 4 # EN
+    slots: 5 # EN
   - type: ContainerContainer
     containers:
       toggleable-clothing: !type:ContainerSlot {}
@@ -111,8 +111,6 @@
       sprite: _Stalker/Objects/Clothing/outerClothing/seva_red.rsi
     - type: Clothing
       sprite: _Stalker/Objects/Clothing/outerClothing/seva_red.rsi
-    - type: GrantsArtifactSlots
-      slots: 5 # EN
 
 - type: entity
   parent: STClothingOuterArmorSevaBase
@@ -254,8 +252,6 @@
     sprite: _Stalker/Objects/Clothing/outerClothing/seva_cn.rsi
   - type: Clothing
     sprite: _Stalker/Objects/Clothing/outerClothing/seva_cn.rsi
-  - type: GrantsArtifactSlots
-    slots: 5 # EN
 
 # Merc
 
