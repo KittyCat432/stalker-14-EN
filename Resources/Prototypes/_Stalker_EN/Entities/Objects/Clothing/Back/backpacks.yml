@@ -24,5 +24,16 @@
     blacklist:
       tags:
       - STArtifact
+      
+- type: entity
+  parent: STClothingBackBase
+  id: ClothingBackpackDuffelClearSky
+  name: Clear Sky Backpack
+  description: Usually used in hiking, this backpack is reffited for Clear Sky members.
+  suffix: ST
+  components:
   - type: Sprite
-    sprite: _Stalker_EN/Objects/Clothing/backpacks/smuggler_backpack.rsi
+    sprite: _Stalker_EN/Objects/Clothing/backpacks/army_backpack_cs.rsi
+  - type: Storage #40
+    grid:
+    - 0,0,4,7
