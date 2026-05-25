@@ -3068,5 +3068,12 @@
   id: 339
   time: '2026-05-25T09:37:45.980711+00:00'
   url: https://github.com/stalker-14-EN/stalker-14-EN/pull/915
+- author: Wintoli
+  changes:
+  - message: Armored bounty hunter hat, yeehaw
+    type: Add
+  id: 340
+  time: '2026-05-25T09:40:12.174016+00:00'
+  url: https://github.com/stalker-14-EN/stalker-14-EN/pull/901
 Name: Stalker
 Order: -1
