@@ -111,8 +111,6 @@
       sprite: _Stalker/Objects/Clothing/outerClothing/seva_red.rsi
     - type: Clothing
       sprite: _Stalker/Objects/Clothing/outerClothing/seva_red.rsi
-    - type: GrantsArtifactSlots
-      slots: 5 # EN
 
 - type: entity
   parent: STClothingOuterArmorSevaBase
@@ -127,8 +125,6 @@
     - type: ToggleableClothing
       clothingPrototype: ClothingHeadHardsuitSevaHelmSci
       slot: head
-    - type: GrantsArtifactSlots
-      slots: 4 # EN
 
 - type: entity
   parent: STClothingHeadHardsuitSevaHelmBase
@@ -254,8 +250,6 @@
     sprite: _Stalker/Objects/Clothing/outerClothing/seva_cn.rsi
   - type: Clothing
     sprite: _Stalker/Objects/Clothing/outerClothing/seva_cn.rsi
-  - type: GrantsArtifactSlots
-    slots: 5 # EN
 
 # Merc
 
