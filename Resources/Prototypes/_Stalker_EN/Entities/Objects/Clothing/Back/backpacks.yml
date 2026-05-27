@@ -87,7 +87,7 @@
   suffix: ST
   components:
   - type: Sprite
-    sprite: _Stalker_EN/Objects/Clothing/backpacks/army_backpack_bandits.rsi
+    sprite: _Stalker_EN/Objects/Clothing/backpacks/army_backpack_bandit.rsi
   - type: Storage #40
     grid:
     - 0,0,4,7
