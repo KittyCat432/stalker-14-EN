@@ -3089,5 +3089,12 @@
   id: 342
   time: '2026-05-25T20:22:26.791482+00:00'
   url: https://github.com/stalker-14-EN/stalker-14-EN/pull/944
+- author: Nox38
+  changes:
+  - message: Resprited Freedom ponchos!
+    type: Tweak
+  id: 343
+  time: '2026-05-27T18:03:52.689177+00:00'
+  url: https://github.com/stalker-14-EN/stalker-14-EN/pull/932
 Name: Stalker
 Order: -1
