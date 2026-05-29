@@ -5,21 +5,7 @@
   name: GP-5 (White)
   description: A white variant of the GP-5 gas mask providing protection from radiation.
   components:
-  - type: Tag
-    tags:
-      - BlockMask
   - type: Sprite
     sprite: _Stalker_EN/Objects/Clothing/mask/gp5m.rsi
   - type: Clothing
     sprite: _Stalker_EN/Objects/Clothing/mask/gp5m.rsi
-  - type: Armor
-    modifiers:
-      coefficients:
-        Caustic: 0.85
-        Radiation: 0.9
-      flatReductions:
-        Radiation: 0.75
-  - type: HideLayerClothing
-    slots:
-    - Hair
-    - HeadTop
