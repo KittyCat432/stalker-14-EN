@@ -6,7 +6,7 @@
   description: Spear made out of wood from the zone. 
   components:
   - type: Sprite
-    sprite: Resources\Textures\Objects\Weapons\Melee\wooden_spear.rsi
+    sprite: Resources\Textures\_Stalker_EN\Objects\Weapons\Melee\wooden_spear.rsi
   - type: MeleeWeapon
     wideAnimationRotation: -135
     damage:
