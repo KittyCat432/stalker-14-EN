@@ -3126,5 +3126,14 @@
   id: 347
   time: '2026-05-30T19:57:48.772373+00:00'
   url: https://github.com/stalker-14-EN/stalker-14-EN/pull/921
+- author: nathan736
+  changes:
+  - message: adjusted neutral poncho hood
+    type: Tweak
+  - message: neutral faction chainmail hood,
+    type: Add
+  id: 348
+  time: '2026-06-01T19:28:58.453053+00:00'
+  url: https://github.com/stalker-14-EN/stalker-14-EN/pull/951
 Name: Stalker
 Order: -1
