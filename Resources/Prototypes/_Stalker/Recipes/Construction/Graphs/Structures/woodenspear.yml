@@ -1,0 +1,20 @@
+- type: constructionGraph
+  id: STSpearWoodgraph
+  start: start
+  graph:
+    - node: start
+      edges:
+        - to: spear
+          completed:
+          - !type:AdminLog # Needs a log for start of attempt in addition to the completion log
+            message: "Construction"
+            impact: High
+          steps:
+            - material: STLogStalkerT1
+              amount: 1
+              doAfter: 1
+            - material: STCombatKnife
+              amount: 1
+              doAfter: 1
+    - node: spear
+      entity: STSpearWood

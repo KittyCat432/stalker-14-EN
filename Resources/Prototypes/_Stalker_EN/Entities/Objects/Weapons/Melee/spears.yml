@@ -1,0 +1,20 @@
+- type: entity
+  name: Wooden Spear
+  parent: Spear
+  id: STSpearWood
+  suffix: ST, Weapon
+  description: Spear made out of wood from the zone. 
+  components:
+  - type: Sprite
+    sprite: Resources\Textures\Objects\Weapons\Melee\wooden_spear.rsi
+  - type: MeleeWeapon
+    wideAnimationRotation: -135
+    damage:
+      types:
+        Piercing: 18 #Not Final, Will be adjusted for the zone
+  - type: DamageOtherOnHit
+    damage:
+      types:
+        Piercing: 25 # Not Final, Will be adjusted for the zone
+  - type: Construction
+    graph: STSpearWoodgraph
