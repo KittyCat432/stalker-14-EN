@@ -3135,5 +3135,12 @@
   id: 348
   time: '2026-06-01T19:28:58.453053+00:00'
   url: https://github.com/stalker-14-EN/stalker-14-EN/pull/951
+- author: Cassandra
+  changes:
+  - message: Fuckass dosimeter now actually works
+    type: Fix
+  id: 349
+  time: '2026-06-02T22:09:18.849417+00:00'
+  url: https://github.com/stalker-14-EN/stalker-14-EN/pull/959
 Name: Stalker
 Order: -1
