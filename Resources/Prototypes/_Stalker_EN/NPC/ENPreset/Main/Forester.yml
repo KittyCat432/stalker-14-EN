@@ -37,6 +37,8 @@
     channels:
     - Binary
     - Common
+  - type: TimedDespawn
+    lifetime: 1800
 
 - type: entity
   parent: NPCForesterCordonEN
@@ -60,4 +62,50 @@
     moneyId: Dollar
     shopPresetId: NpcForesterLimanskEN
 
+- type: entity
+  name: Forester Spawner (Cordon)
+  id: STTriggerTraderForesterCordon
+  parent: STBaseTrigger125
+  suffix: ST, Trigger
+  components:
+  - type: SpawnOnApproach
+    prototypes:
+    - NPCForesterCordonEN
+    restricted:
+    - NPCForesterCordonEN
+  - type: STAnomalyGeneratorSpawnBlocker
+    size: 5
+  - type: EmissionLightningSpawnBlocker
+    radius: 5
 
+- type: entity
+  name: Forester Spawner (Red Forest)
+  id: STTriggerTraderForesterRedForest
+  parent: STBaseTrigger125
+  suffix: ST, Trigger
+  components:
+  - type: SpawnOnApproach
+    prototypes:
+    - NPCForesterRedForestEN
+    restricted:
+    - NPCForesterRedForestEN
+  - type: STAnomalyGeneratorSpawnBlocker
+    size: 5
+  - type: EmissionLightningSpawnBlocker
+    radius: 5
+
+- type: entity
+  name: Forester Spawner (Limansk)
+  id: STTriggerTraderForesterLimansk
+  parent: STBaseTrigger125
+  suffix: ST, Trigger
+  components:
+  - type: SpawnOnApproach
+    prototypes:
+    - NPCForesterLimanskEN
+    restricted:
+    - NPCForesterLimanskEN
+  - type: STAnomalyGeneratorSpawnBlocker
+    size: 5
+  - type: EmissionLightningSpawnBlocker
+    radius: 5
