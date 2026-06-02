@@ -10,6 +10,8 @@ using Robust.Server.GameObjects;
 using Robust.Server.Player;
 using Robust.Shared.Player;
 
+using Robust.Shared.Utility;
+
 namespace Content.Server.Radiation.Systems;
 
 public sealed class GeigerSystem : SharedGeigerSystem
@@ -80,23 +82,45 @@ public sealed class GeigerSystem : SharedGeigerSystem
         var query = EntityQueryEnumerator<GeigerComponent, RadiationReceiverComponent>();
         while (query.MoveNext(out var uid, out var geiger, out var receiver))
         {
-            if (receiver?.CurrentDamage != null && receiver.CurrentDamage.TryGetValue("Radiation", out var rads)) // stalker-changes
-                SetCurrentRadiation(uid, geiger, rads); // stalker-changes
-            else // stalker-changes
-                SetCurrentRadiation(uid, geiger, 0f); // stalker-changes
+            if (receiver?.CurrentDamage != null && receiver.CurrentDamage.Count != 0){ // start stalker en changes
+                SetCurrentRadiation(uid, geiger, receiver.CurrentDamage);
+            } 
+            else
+                SetCurrentRadiation(uid, geiger, new Dictionary<string,float>());
         }
     }
 
-    private void SetCurrentRadiation(EntityUid uid, GeigerComponent component, float rads)
+
+    private void SetCurrentRadiation(EntityUid uid, GeigerComponent component, Dictionary<string,float> CurrentDamage)
     {
-        // check that it's approx equal
-        if (MathHelper.CloseTo(component.CurrentRadiation, rads, ApproxEqual))
-            return;
+        float totalRads = 0;
+        bool dirty = false;
+        foreach (string damageType in component.damageTypes)
+        {
+            if (CurrentDamage.TryGetValue(damageType, out var rads))
+            {
+                totalRads += rads;
+                if (! MathHelper.CloseTo(component.CurrentRadiation, rads, ApproxEqual))
+                {
+                    dirty = true;
+                    component.CurrentRadiationLevels[damageType] = (rads, RadsToLevel(rads));
+                }
+                //component.CurrentRadiationLevels.Add(damageType, (rads, RadsToLevel(rads)));
+            }
+            else if (component.CurrentRadiationLevels.ContainsKey(damageType) && !MathHelper.CloseTo(component.CurrentRadiationLevels[damageType].Item1, 0, ApproxEqual))
+            {
+                dirty = true;
+                component.CurrentRadiationLevels[damageType] = (0.0f, GeigerDangerLevel.None);
+            }
+        }
+
+        if (!dirty)
+            return;  // end stalker en changes
 
         var curLevel = component.DangerLevel;
-        var newLevel = RadsToLevel(rads);
+        var newLevel = RadsToLevel(totalRads); // stalker en change
 
-        component.CurrentRadiation = rads;
+        component.CurrentRadiation = totalRads; // stalker en Change
         component.DangerLevel = newLevel;
 
         if (curLevel != newLevel)

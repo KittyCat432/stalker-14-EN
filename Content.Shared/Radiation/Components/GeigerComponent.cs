@@ -101,6 +101,28 @@ public sealed partial class GeigerComponent : Component
     /// </summary>
     [DataField]
     public float Volume = -4f;
+
+    // start stalker en changes
+    /// <summary>
+    ///     List of all types of radiation that are detectable
+    /// </summary>
+    [ViewVariables(VVAccess.ReadWrite)]
+    [DataField]
+    public List<string> damageTypes = new List<string> {"Radiation"};
+
+    /// <summary>
+    ///     Current radiation level in rad per second for each type detected
+    ///     and the coresponding danger level.
+    /// </summary>
+    [ViewVariables(VVAccess.ReadOnly), AutoNetworkedField]
+    public Dictionary<string, (float, GeigerDangerLevel)> CurrentRadiationLevels = new Dictionary<string, (float, GeigerDangerLevel)> ();
+
+    /// <summary>
+    ///     Number of sigfigs
+    /// </summary>
+    [ViewVariables(VVAccess.ReadWrite)]
+    [DataField]
+    public string accuracy = "1"; // end stalker en changes
 }
 
 [Serializable, NetSerializable]
