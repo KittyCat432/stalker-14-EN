@@ -15,9 +15,12 @@
   - type: DamageOtherOnHit
     damage:
       types:
-        Piercing: 25 # Not Final, Will be adjusted for the zone
-  - type: Construction
-    graph: STSpearWoodgraph
+        Piercing: 30 # Not Final, Will be adjusted for the zone
+  - type: BonusDamageOnGroup
+    group: Mutated
+    damage:
+      types:
+        Piercing: 15 # Damage bonus against mutants.
   - type: Destructible
     thresholds:
     - trigger:
