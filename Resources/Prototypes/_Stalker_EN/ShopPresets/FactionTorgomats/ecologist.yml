@@ -218,6 +218,7 @@
       items:
           # Helmets #
         STClothingHeadTinfoil: 200
+        #STPsyHelm1: 7500
           # OuterClothing #
         ClothingOuterJacketSCI: 60 # T1 - PVE
         ClothingOuterArmorSSP99Amber: 4000
@@ -287,7 +288,7 @@
         ZoneArtifactDetectorSpruce: 2200 # T2
         ZoneArtifactDetectorBarracuda: 3500 # T3
         Veles: 4500 # T3
-        # ZoneArtifactDetectorBear: 8000 #T4 Disabled for now
+        #ZoneArtifactDetectorBear: 10000 #T4 it is time
 
         # RP Items / Anomaly Destructors
         BaseMachineAnomalyDestructorFolded: 450
@@ -451,7 +452,7 @@
         DetectorVelesBlueprint: 10000
         STZoneArtifactDetectorBarracudaBlueprint: 18000
         STZoneArtifactDetectorBearBlueprint: 25000
-        # STZoneArtifactDetectorWolfhoundBlueprint: 40000 Disabled for now
+        #STZoneArtifactDetectorWolfhoundBlueprint: 55000 # not yet
 
     - name: shop-category-tools
       priority: 14

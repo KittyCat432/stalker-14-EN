@@ -139,3 +139,46 @@ advertisement-izlom-27 = Stalker, help!
 advertisement-izlom-28 = Over here!!
 advertisement-izlom-29 = I'm stuck!
 advertisement-izlom-30 = I can't move...
+
+# Forester
+
+advertisement-forester-cordon-1 = Not so bad down here these days. You should have seen it twenty years ago.
+advertisement-forester-cordon-2 = Is Sidorovich still... Ah, never mind. It's in the past.
+advertisement-forester-cordon-3 = I didn't haul much down here but I hope what I've got helps you a little, stalker.
+advertisement-forester-cordon-4 = I'm not much for chatting but if you find me up north be sure to say hi anyway.
+advertisement-forester-cordon-5 = The trees down here... Well, the color's more natural. Guess my eyes just aren't used to it anymore.
+advertisement-forester-cordon-6 = If you ever get tired of the safety of Cordon come see me in the Red Forest, I'll keep you stocked while you're there.
+advertisement-forester-cordon-7 = All these groups fighting each other... Well, makes me appreciate being solo.
+advertisement-forester-cordon-8 = The military? They aren't so hard to get away from if you know where to walk.
+advertisement-forester-cordon-9 = I've had to rebuild a lot over the years. If you're ever in the Red Forest stop by my cabin, stalker.
+advertisement-forester-cordon-10 = I've got to get moving soon, the walk back north is always a long one.
+advertisement-forester-cordon-11 = Spare a dollar? Ah, probably not.
+advertisement-forester-cordon-12 = If you're looking for something a little better try catching me up in the Red Forest, I've got my stockpiles there.
+advertisement-forester-cordon-13 = Winter's going to get cold, always does. Be sure you're ready for it.
+advertisement-forester-cordon-14 = Life's hard out here but it's worth it. Was then, is now.
+
+advertisement-forester-rf-1 = Made it to the old Wormwood lately? Ah, probably not. Used to be a lot of hunters out there before everything happened.
+advertisement-forester-rf-2 = The money's going to a good cause: getting more supplies back here.
+advertisement-forester-rf-3 = I'll be heading out to Limansk soon. Dangerous, I know, but there's still salvageable supplies in the ruins.
+advertisement-forester-rf-4 = I've been here a long time, I've learned to live with this place. It's not for everyone but... It's home.
+advertisement-forester-rf-5 = Sit and have a drink, it's going to be a long trip no matter where you go from here.
+advertisement-forester-rf-6 = I've seen those guys in white coming and going. What were they calling themselves? The Monolith?
+advertisement-forester-rf-7 = You be careful if you stick to the roads, other stalkers are just as dangerous as the mutants out here.
+advertisement-forester-rf-8 = If you go to Limansk you be careful, I've seen all kinds of things up there lately.
+advertisement-forester-rf-9 = The forest gets louder every year. More gunfire, more anomalies. Only so much a man can do.
+advertisement-forester-rf-10 = The water out here still holds on to the worst of the radiation, I don't know how there can be fish in there.
+advertisement-forester-rf-11 = Watch out for bloodsuckers, though I guess if you see them it's already too late. My advice is to get out of there.
+advertisement-forester-rf-12 = I don't know if anyone would say I've got a friendly face but if you see me up north, well... I'm not shooting first.
+
+advertisement-forester-limansk-1 = Almost got caught in the last emission... Not this time though.
+advertisement-forester-limansk-2 = I can handle myself, you just worry about getting out of here. Maybe we'll see each other down south some time.
+advertisement-forester-limansk-3 = Sometimes I wonder where all this came from, the anomalies. No way in hell some nuclear fallout did that on its own.
+advertisement-forester-limansk-4 = The roads are getting worse every year but if you get up on the hills you can just see where I used to live from here.
+advertisement-forester-limansk-5 = The Monolith? Ah, I stay away from them. Get the feeling we're being watched even now though.
+advertisement-forester-limansk-6 = If you ever see something that looks like a big bubble stay the hell away from it. I got out but you... Well, just be careful.
+advertisement-forester-limansk-7 = Sometimes I wonder how hard it would be to take all this back.
+advertisement-forester-limansk-8 = The artifacts up here aren't like anything else in the zone. Sometimes I wonder what else is out there.
+advertisement-forester-limansk-9 = I should get back to my cabin in Red Forest soon...
+advertisement-forester-limansk-10 = I hope this stuff helps. I always bring more than I can use anyhow.
+advertisement-forester-limansk-11 = I swear the sunrise out here is brighter than it used to be.
+advertisement-forester-limansk-12 = If you see those altars around be sure to knock them over. I'm not sure what they are but I've seen the Monolith milling about near them.
