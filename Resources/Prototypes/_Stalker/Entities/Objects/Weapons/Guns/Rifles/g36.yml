@@ -37,6 +37,12 @@
         whitelist:
           tags:
           - Magazine556
+      gun_module_muzzle:
+        name: Muzzle
+        priority: 3
+        whitelist:
+          tags:
+          - STWeaponModuleRifleSilencerNato
       gun_chamber:
         name: Chamber
         startingItem:
