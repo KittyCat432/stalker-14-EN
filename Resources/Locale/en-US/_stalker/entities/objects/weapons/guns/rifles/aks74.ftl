@@ -22,3 +22,5 @@ ent-STWeaponRifleAKS74USERAPH = Martyr
     .desc = AKs and AKSs beyond repair bring new life through Seraphim Brotherhood technicians, turning into Martyr weapons. Unreliable, inaccurate, inefficient—but still used by Suicide Seraphim in their final battle for their God. It uses 5.45x39mm ammo.
 ent-STWeaponRifleSquall = Squall
     .desc = An experimental high-rate machine gun in a bullpup configuration. It uses 5.45x39mm ammo.
+ent-STWeaponRifleStalkerAek971 = AEK-971
+    .desc = Soviet machine gun, developed in 1978 at the Degtyarev plant in Kovrov under the leadership of Stanislav Ivanovich Koksharov based on machine guns of the Konstantinov systems. It uses 5.45x39 ammo.

@@ -4,8 +4,8 @@ meta:
   engineVersion: 268.0.0
   forkId: ""
   forkVersion: ""
-  time: 05/03/2026 09:08:50
-  entityCount: 15394
+  time: 06/02/2026 19:32:23
+  entityCount: 15393
 maps:
 - 1
 grids:
@@ -62128,8 +62128,6 @@ entities:
     - type: Transform
       pos: -9.631664,-30.657427
       parent: 1
-    missingComponents:
-    - Pullable
   - uid: 14789
     components:
     - type: Transform
@@ -62138,7 +62136,6 @@ entities:
     missingComponents:
     - Physics
     - Fixtures
-    - Pullable
 - proto: BagPotato2
   entities:
   - uid: 14784
@@ -62146,8 +62143,6 @@ entities:
     - type: Transform
       pos: -7.8826885,-30.645197
       parent: 1
-    missingComponents:
-    - Pullable
   - uid: 14788
     components:
     - type: Transform
@@ -62156,7 +62151,6 @@ entities:
     missingComponents:
     - Physics
     - Fixtures
-    - Pullable
   - uid: 14794
     components:
     - type: Transform
@@ -62177,8 +62171,6 @@ entities:
     - type: Transform
       pos: -9.093517,-30.681889
       parent: 1
-    missingComponents:
-    - Pullable
   - uid: 14785
     components:
     - type: Transform
@@ -62187,7 +62179,6 @@ entities:
     missingComponents:
     - Physics
     - Fixtures
-    - Pullable
   - uid: 14787
     components:
     - type: Transform
@@ -62196,7 +62187,6 @@ entities:
     missingComponents:
     - Physics
     - Fixtures
-    - Pullable
   - uid: 14790
     components:
     - type: Transform
@@ -62205,7 +62195,6 @@ entities:
     missingComponents:
     - Physics
     - Fixtures
-    - Pullable
   - uid: 14792
     components:
     - type: Transform
@@ -62237,7 +62226,6 @@ entities:
     missingComponents:
     - Physics
     - Fixtures
-    - Pullable
   - uid: 14791
     components:
     - type: Transform
@@ -62246,7 +62234,6 @@ entities:
     missingComponents:
     - Physics
     - Fixtures
-    - Pullable
   - uid: 14793
     components:
     - type: Transform
@@ -97793,7 +97780,7 @@ entities:
       pos: -68.5,35.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -712955.44
+      secondsUntilStateChange: -713016.8
       state: Opening
   - uid: 6558
     components:
@@ -98050,7 +98037,7 @@ entities:
       pos: 65.5,46.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -64396.45
+      secondsUntilStateChange: -64457.84
       state: Opening
   - uid: 6600
     components:
@@ -98151,7 +98138,7 @@ entities:
       pos: -85.5,29.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -43606.426
+      secondsUntilStateChange: -43667.816
       state: Opening
   - uid: 6615
     components:
@@ -98225,13 +98212,6 @@ entities:
     components:
     - type: Transform
       pos: -7.5,67.5
-      parent: 1
-- proto: MiracleMachineTeleporterSpawnerYantarDeadCity
-  entities:
-  - uid: 15393
-    components:
-    - type: Transform
-      pos: 23.5,-82.5
       parent: 1
 - proto: Mono-Yantar
   entities:
@@ -108995,7 +108975,7 @@ entities:
       pos: -50.5,-63.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -31836.805
+      secondsUntilStateChange: -31898.197
       state: Opening
   - uid: 8330
     components:
@@ -140309,7 +140289,7 @@ entities:
       pos: -68.5,16.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -714006.75
+      secondsUntilStateChange: -714068.1
       state: Opening
   - uid: 13656
     components:
@@ -140324,7 +140304,7 @@ entities:
       pos: -67.5,18.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -714008.2
+      secondsUntilStateChange: -714069.56
       state: Opening
   - uid: 13658
     components:
@@ -140343,7 +140323,7 @@ entities:
       pos: -70.5,32.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -712246.1
+      secondsUntilStateChange: -712307.5
       state: Opening
   - uid: 13661
     components:
@@ -145663,7 +145643,7 @@ entities:
       pos: -91.5,28.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -45530.094
+      secondsUntilStateChange: -45591.484
       state: Opening
   - uid: 14614
     components:
@@ -145771,7 +145751,7 @@ entities:
       pos: 59.5,38.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -64392.22
+      secondsUntilStateChange: -64453.61
       state: Opening
   - uid: 14633
     components:
