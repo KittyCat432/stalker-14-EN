@@ -55,9 +55,9 @@
   description: Является шлемом от Берилла.
   components:
   - type: Sprite
-    sprite: _Stalker/Objects/Clothing/hats/bulat_helm_monolit.rsi
+    sprite: _Stalker_EN/Objects/Clothing/hats/bulat_helm_monolit_new.rsi #Stalker EN change
   - type: Clothing
-    sprite: _Stalker/Objects/Clothing/hats/bulat_helm_monolit.rsi
+    sprite: _Stalker_EN/Objects/Clothing/hats/bulat_helm_monolit_new.rsi #Stalker EN change
   - type: IngestionBlocker
   - type: IdentityBlocker
   - type: PersonalDamage
