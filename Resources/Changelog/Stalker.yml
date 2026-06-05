@@ -3149,5 +3149,12 @@
   id: 350
   time: '2026-06-04T22:20:07.332125+00:00'
   url: https://github.com/stalker-14-EN/stalker-14-EN/pull/960
+- author: Llfiend
+  changes:
+  - message: Two new skins for SCAR-H and SCAR-L
+    type: Add
+  id: 351
+  time: '2026-06-05T18:52:11.628605+00:00'
+  url: https://github.com/stalker-14-EN/stalker-14-EN/pull/962
 Name: Stalker
 Order: -1
