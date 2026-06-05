@@ -291,8 +291,6 @@
       weight: 0.5
     - protoId: ZoneAnomalyVortex
       weight: 0.6
-    - protoId: ZoneAnomalyPoppyField
-      weight: 0.2
 
 # Rostok and The Wilds - Stalker EN
 - type: stAnomalyGenerationOptions
