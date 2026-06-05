@@ -118,3 +118,7 @@ st-mob-variant-legendary-rogonosets = Singular Rogonosets
 st-mob-variant-uncommon-gosha = Adapted Gosha
 st-mob-variant-rare-gosha = Mutated Gosha
 st-mob-variant-legendary-gosha = Singular Gosha
+
+st-mob-variant-uncommon-karlik = Adapted Karlik
+st-mob-variant-rare-karlik = Mutated Karlik
+st-mob-variant-legendary-karlik = Singular Karlik
