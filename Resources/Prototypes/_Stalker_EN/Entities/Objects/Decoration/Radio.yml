@@ -202,6 +202,232 @@
   - type: RepositoryItem # stalker-en change
     categoryName: repository-cassettes-category
 
+#SH
+
+- type: entity
+  parent: BaseItem
+  id: CasseteSH1
+  suffix: Stalker, Cassette, SH
+  name: Anam Cara
+  description: A weathered cassette tape with a red circular seal on the label.
+  components:
+  - type: STWeight
+    self: 5
+  - type: Cassete
+    sound: /Audio/_Stalker_EN/Music/Event/AnamCara.ogg
+  - type: Tag
+    tags:
+    - Cassete
+  - type: Sprite
+    sprite: _Stalker_EN/Objects/Misc/cassette.rsi
+    state: red #pyramid thing
+  - type: RepositoryItem
+    categoryName: repository-cassettes-category
+
+- type: entity
+  parent: BaseItem
+  id: CasseteSH2
+  suffix: Stalker, Cassette, SH
+  name: Laura Plays The Piano
+  description: A weathered cassette tape with a red circular seal on the label.
+  components:
+  - type: STWeight
+    self: 5
+  - type: Cassete
+    sound: /Audio/_Stalker_EN/Music/Event/LauraPlaysThePiano.ogg
+  - type: Tag
+    tags:
+    - Cassete
+  - type: Sprite
+    sprite: _Stalker_EN/Objects/Misc/cassette.rsi
+    state: red #pyramid thing
+  - type: RepositoryItem
+    categoryName: repository-cassettes-category
+
+- type: entity
+  parent: BaseItem
+  id: CasseteSH3
+  suffix: Stalker, Cassette, SH
+  name: Promise
+  description: A weathered cassette tape with a red circular seal on the label.
+  components:
+  - type: STWeight
+    self: 5
+  - type: Cassete
+    sound: /Audio/_Stalker_EN/Music/Event/Promise.ogg
+  - type: Tag
+    tags:
+    - Cassete
+  - type: Sprite
+    sprite: _Stalker_EN/Objects/Misc/cassette.rsi
+    state: red #pyramid thing
+  - type: RepositoryItem
+    categoryName: repository-cassettes-category
+
+- type: entity
+  parent: BaseItem
+  id: CasseteSH4
+  suffix: Stalker, Cassette, SH
+  name: The Day Of Night Shadows
+  description: A weathered cassette tape with a red circular seal on the label.
+  components:
+  - type: STWeight
+    self: 5
+  - type: Cassete
+    sound: /Audio/_Stalker_EN/Music/Event/TheDayOfNightShadows.ogg
+  - type: Tag
+    tags:
+    - Cassete
+  - type: Sprite
+    sprite: _Stalker_EN/Objects/Misc/cassette.rsi
+    state: red #pyramid thing
+  - type: RepositoryItem
+    categoryName: repository-cassettes-category
+
+- type: entity
+  parent: BaseItem
+  id: CasseteSH5
+  suffix: Stalker, Cassette, SH
+  name: Theme Of Laura
+  description: A weathered cassette tape with a red circular seal on the label.
+  components:
+  - type: STWeight
+    self: 5
+  - type: Cassete
+    sound: /Audio/_Stalker_EN/Music/Event/ThemeOfLaura.ogg
+  - type: Tag
+    tags:
+    - Cassete
+  - type: Sprite
+    sprite: _Stalker_EN/Objects/Misc/cassette.rsi
+    state: red #pyramid thing
+  - type: RepositoryItem
+    categoryName: repository-cassettes-category
+
+- type: entity
+  parent: BaseItem
+  id: CasseteSH6
+  suffix: Stalker, Cassette, SH
+  name: Unhinged Betrayal
+  description: A weathered cassette tape with a red circular seal on the label.
+  components:
+  - type: STWeight
+    self: 5
+  - type: Cassete
+    sound: /Audio/_Stalker_EN/Music/Event/UnhingedBetrayal.ogg
+  - type: Tag
+    tags:
+    - Cassete
+  - type: Sprite
+    sprite: _Stalker_EN/Objects/Misc/cassette.rsi
+    state: red #pyramid thing
+  - type: RepositoryItem
+    categoryName: repository-cassettes-category
+
+- type: entity
+  parent: BaseItem
+  id: CasseteSH7
+  suffix: Stalker, Cassette, SH
+  name: What Lurks In The Forest
+  description: A weathered cassette tape with a red circular seal on the label.
+  components:
+  - type: STWeight
+    self: 5
+  - type: Cassete
+    sound: /Audio/_Stalker_EN/Music/Event/WhatLurksInTheForest.ogg
+  - type: Tag
+    tags:
+    - Cassete
+  - type: Sprite
+    sprite: _Stalker_EN/Objects/Misc/cassette.rsi
+    state: red #pyramid thing
+  - type: RepositoryItem
+    categoryName: repository-cassettes-category
+
+- type: entity
+  parent: BaseItem
+  id: CasseteSH8
+  suffix: Stalker, Cassette, SH
+  name: White Noise
+  description: A weathered cassette tape with a red circular seal on the label.
+  components:
+  - type: STWeight
+    self: 5
+  - type: Cassete
+    sound: /Audio/_Stalker_EN/Music/Event/WhiteNoise.ogg
+  - type: Tag
+    tags:
+    - Cassete
+  - type: Sprite
+    sprite: _Stalker_EN/Objects/Misc/cassette.rsi
+    state: red #pyramid thing
+  - type: RepositoryItem
+    categoryName: repository-cassettes-category
+
+#Darkwood
+
+- type: entity
+  parent: BaseItem
+  id: CasseteDW1
+  suffix: Stalker, Cassette, DW
+  name: Morning
+  description: A weathered cassette with a label written in charcoal.
+  components:
+  - type: STWeight
+    self: 5
+  - type: Cassete
+    sound: /Audio/_Stalker_EN/Music/Event/Morning.ogg
+  - type: Tag
+    tags:
+    - Cassete
+  - type: Sprite
+    sprite: _Stalker_EN/Objects/Misc/cassette.rsi
+    state: white
+  - type: RepositoryItem
+    categoryName: repository-cassettes-category
+
+- type: entity
+  parent: BaseItem
+  id: CasseteDW2
+  suffix: Stalker, Cassette, DW
+  name: Wolf
+  description: A weathered cassette smelling like wet dog.
+  components:
+  - type: STWeight
+    self: 5
+  - type: Cassete
+    sound: /Audio/_Stalker_EN/Music/Event/Wolf.ogg
+  - type: Tag
+    tags:
+    - Cassete
+  - type: Sprite
+    sprite: _Stalker_EN/Objects/Misc/cassette.rsi
+    state: white
+  - type: RepositoryItem
+    categoryName: repository-cassettes-category
+
+#PACHAMAQUINA
+
+- type: entity
+  parent: BaseItem
+  id: CassetePACHAMAQUINA1
+  suffix: Stalker, Cassette, PACHAMAQUINA # Yerba Mate
+  name: Old Automata
+  description: A weathered cassette reading 'PACHAMAQUINA' on the label.
+  components:
+  - type: STWeight
+    self: 5
+  - type: Cassete
+    sound: /Audio/_Stalker_EN/Music/Event/OldAutomata.ogg
+  - type: Tag
+    tags:
+    - Cassete
+  - type: Sprite
+    sprite: _Stalker_EN/Objects/Misc/cassette.rsi
+    state: white
+  - type: RepositoryItem
+    categoryName: repository-cassettes-category
+
 # Admeme
 
 - type: entity

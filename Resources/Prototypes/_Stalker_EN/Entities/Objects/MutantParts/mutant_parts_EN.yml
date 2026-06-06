@@ -95,3 +95,33 @@
     size: Normal
     shape:
     - 0,0,0,1
+
+- type: entity
+  parent: BaseMutantPart
+  id: MutantPartRustEgg
+  name: Rust Egg
+  components:
+  - type: STWeight
+    self: 0.5
+  - type: Sprite
+    sprite: _Stalker_EN/Objects/MutantParts/oddegg.rsi
+    state: rustegg
+  - type: Item
+    size: Small
+    shape:
+    - 0,0,1,1
+
+- type: entity
+  parent: BaseMutantPart
+  id: MutantPartScarletEgg
+  name: Scarlet Egg
+  components:
+  - type: STWeight
+    self: 0.5
+  - type: Sprite
+    sprite: _Stalker_EN/Objects/MutantParts/oddegg.rsi
+    state: scarletegg
+  - type: Item
+    size: Small
+    shape:
+    - 0,0,1,1
