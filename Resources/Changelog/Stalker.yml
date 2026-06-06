@@ -3170,5 +3170,12 @@
   id: 353
   time: '2026-06-06T20:27:31.986469+00:00'
   url: https://github.com/stalker-14-EN/stalker-14-EN/pull/967
+- author: TheCookieChicken
+  changes:
+  - message: Wooden Spears
+    type: Add
+  id: 354
+  time: '2026-06-06T20:31:08.006305+00:00'
+  url: https://github.com/stalker-14-EN/stalker-14-EN/pull/955
 Name: Stalker
 Order: -1
