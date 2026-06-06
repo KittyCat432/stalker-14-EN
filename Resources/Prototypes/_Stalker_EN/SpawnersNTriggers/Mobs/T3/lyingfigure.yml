@@ -1,7 +1,7 @@
 - type: entity
-  name: lyingfigure (1) (100%)
-  id: STTriggerLyingFigure1100
-  parent: STBaseTrigger1100
+  name: lyingfigure (1) (100%) 30м
+  id: STTriggerLyingFigure110030
+  parent: STBaseTrigger1110030
   suffix: ST, T3, Trigger
   components:
   - type: SpawnOnApproach
