@@ -1,7 +1,7 @@
 - type: entity
-  name: mannequin (1) (100%)
-  id: STTriggerMannequin1100
-  parent: STBaseTrigger1100
+  name: mannequin (1) (100%) 30м
+  id: STTriggerMannequin110030
+  parent: STBaseTrigger1110030
   suffix: ST, T3, Trigger
   components:
   - type: SpawnOnApproach
