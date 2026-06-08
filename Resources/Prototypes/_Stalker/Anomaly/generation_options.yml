@@ -296,7 +296,7 @@
 - type: stAnomalyGenerationOptions
   id: STRostokAndWildsGenerationOptions
   options:
-    totalCount: 95
+    totalCount: 130
     anomalyEntries:
     # Electrical
     - protoId: ZoneAnomalySource
