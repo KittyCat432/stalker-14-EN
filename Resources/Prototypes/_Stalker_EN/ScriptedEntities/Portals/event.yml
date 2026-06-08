@@ -97,6 +97,18 @@
 
 - type: entity
   parent: MapTeleportBase
+  id: Ending-Results
+  name: Ending-Results
+  suffix: SH, Teleport, Portal, Event
+
+- type: entity
+  parent: MapTeleportBase
+  id: Results-Outside
+  name: Results-Outside
+  suffix: SH, Teleport, Portal, Event
+
+- type: entity
+  parent: MapTeleportBase
   id: Fog-Extra
   name: Fog-Extra
   suffix: SH, Teleport, Portal, Event
