@@ -39327,17 +39327,11 @@ entities:
     - type: Transform
       pos: -45.5,-115.5
       parent: 1
-    - type: LinkedEntity
-      linkedEntities:
-      - 7535
   - uid: 7535
     components:
     - type: Transform
       pos: -22.5,-67.5
       parent: 1
-    - type: LinkedEntity
-      linkedEntities:
-      - 6866
 - proto: LockerBig
   entities:
   - uid: 4464
@@ -69343,8 +69337,6 @@ entities:
     - type: Transform
       pos: -38.5,41.5
       parent: 1
-    - type: LinkedEntity
-      linkedEntities: []
 - proto: Yantar-LabUncollide3
   entities:
   - uid: 6070
@@ -69352,8 +69344,6 @@ entities:
     - type: Transform
       pos: -67.5,-44.5
       parent: 1
-    - type: LinkedEntity
-      linkedEntities: []
 - proto: Yantar-Mono
   entities:
   - uid: 5231
@@ -69361,8 +69351,6 @@ entities:
     - type: Transform
       pos: 26.5,8.5
       parent: 1
-    - type: LinkedEntity
-      linkedEntities: []
 - proto: Yantar-Rostok
   entities:
   - uid: 6120
@@ -69377,8 +69365,6 @@ entities:
     - type: Transform
       pos: 26.5,4.5
       parent: 1
-    - type: LinkedEntity
-      linkedEntities: []
 - proto: YantarUpstairs
   entities:
   - uid: 6115
@@ -69386,17 +69372,11 @@ entities:
     - type: Transform
       pos: -38.5,43.5
       parent: 1
-    - type: LinkedEntity
-      linkedEntities:
-      - 6116
   - uid: 6116
     components:
     - type: Transform
       pos: -57.5,77.5
       parent: 1
-    - type: LinkedEntity
-      linkedEntities:
-      - 6115
 - proto: ZIL
   entities:
   - uid: 360
