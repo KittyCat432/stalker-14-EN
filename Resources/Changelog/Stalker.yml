@@ -3240,5 +3240,12 @@
   id: 362
   time: '2026-06-10T13:28:21.017106+00:00'
   url: https://github.com/stalker-14-EN/stalker-14-EN/pull/973
+- author: TheOverwatchVoice
+  changes:
+  - message: Adds a new mantle to the Monolith faction.
+    type: Add
+  id: 363
+  time: '2026-06-10T23:43:56.553652+00:00'
+  url: https://github.com/stalker-14-EN/stalker-14-EN/pull/974
 Name: Stalker
 Order: -1
