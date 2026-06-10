@@ -3233,5 +3233,12 @@
   id: 361
   time: '2026-06-10T04:31:51.201612+00:00'
   url: https://github.com/stalker-14-EN/stalker-14-EN/pull/972
+- author: Aliwenko
+  changes:
+  - message: Niebla
+    type: Add
+  id: 362
+  time: '2026-06-10T13:28:21.017106+00:00'
+  url: https://github.com/stalker-14-EN/stalker-14-EN/pull/973
 Name: Stalker
 Order: -1
