@@ -3247,5 +3247,12 @@
   id: 363
   time: '2026-06-10T23:43:56.553652+00:00'
   url: https://github.com/stalker-14-EN/stalker-14-EN/pull/974
+- author: AnryReal and @Carousel
+  changes:
+  - message: Poppu field spawn angry-flies without sleep effect attack
+    type: Add
+  id: 364
+  time: '2026-06-11T09:20:53.586814+00:00'
+  url: https://github.com/stalker-14-EN/stalker-14-EN/pull/952
 Name: Stalker
 Order: -1
