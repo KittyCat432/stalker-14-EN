@@ -3254,5 +3254,12 @@
   id: 364
   time: '2026-06-11T09:20:53.586814+00:00'
   url: https://github.com/stalker-14-EN/stalker-14-EN/pull/952
+- author: Aliwenko
+  changes:
+  - message: move niebla
+    type: Tweak
+  id: 365
+  time: '2026-06-11T11:40:01.931063+00:00'
+  url: https://github.com/stalker-14-EN/stalker-14-EN/pull/975
 Name: Stalker
 Order: -1
