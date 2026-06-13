@@ -3268,5 +3268,12 @@
   id: 366
   time: '2026-06-11T16:20:13.200148+00:00'
   url: https://github.com/stalker-14-EN/stalker-14-EN/pull/976
+- author: cris5311
+  changes:
+  - message: fixed a changelog message
+    type: Fix
+  id: 367
+  time: '2026-06-13T01:19:04.659642+00:00'
+  url: https://github.com/stalker-14-EN/stalker-14-EN/pull/977
 Name: Stalker
 Order: -1
