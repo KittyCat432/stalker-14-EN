@@ -177,7 +177,7 @@
   - STWeaponRifleStalkerAbakanWinter
   steps:
     firstIngredient: CraftChemicalCleaningKit
-    secondIngredient: STWeaponRifleAbakanWinterMono
+    secondIngredient: STWeaponRifleStalkerAbakanWinterMono
     time: 15
 
 - type: lightCraftingRecipe
