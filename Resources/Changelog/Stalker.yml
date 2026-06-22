@@ -3313,5 +3313,12 @@
   id: 371
   time: '2026-06-20T11:02:24.764839+00:00'
   url: https://github.com/stalker-14-EN/stalker-14-EN/pull/987
+- author: crocodilecarousel
+  changes:
+  - message: New glock skin, sprites by qwertymen41
+    type: Add
+  id: 372
+  time: '2026-06-22T00:55:28.706297+00:00'
+  url: https://github.com/stalker-14-EN/stalker-14-EN/pull/988
 Name: Stalker
 Order: -1
