@@ -54,3 +54,14 @@
     sprite: _Stalker_EN/Objects/Clothing/hats/beret_svoboda.rsi
   - type: Clothing
     sprite: _Stalker_EN/Objects/Clothing/hats/beret_svoboda.rsi
+
+- type: entity
+  parent: ClothingHeadBeretBase
+  id: ClothingHeadBeretRene
+  name: Renegade beret
+  description: A drab beret worn by Renegades. It boasts a wild feather.
+  components:
+  - type: Sprite
+    sprite: _Stalker_EN/Objects/Clothing/hats/beret_renegade.rsi
+  - type: Clothing
+    sprite: _Stalker_EN/Objects/Clothing/hats/beret_renegade.rsi
