@@ -3350,5 +3350,12 @@
   id: 376
   time: '2026-06-24T19:09:27.217340+00:00'
   url: https://github.com/stalker-14-EN/stalker-14-EN/pull/992
+- author: dallaszzz
+  changes:
+  - message: FINALLY fixed the devious neutral stair teleport
+    type: Fix
+  id: 377
+  time: '2026-06-25T05:28:04.756721+00:00'
+  url: https://github.com/stalker-14-EN/stalker-14-EN/pull/997
 Name: Stalker
 Order: -1
