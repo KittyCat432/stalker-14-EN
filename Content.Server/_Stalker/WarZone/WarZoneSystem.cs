@@ -13,6 +13,8 @@ using Content.Shared.NPC.Prototypes;
 using Content.Shared.Chat;
 using Content.Server.Chat.Systems;
 using System.Linq;
+using Content.Server._Stalker_EN.PdaMessenger;
+using Microsoft.CodeAnalysis.Elfie.Model;
 
 namespace Content.Server._Stalker.WarZone;
 
@@ -25,6 +27,8 @@ public sealed partial class WarZoneSystem : EntitySystem
     [Dependency] private readonly IChatManager _chatManager = default!;
     [Dependency] private readonly PopupSystem _popup = default!;
     [Dependency] private readonly SharedTransformSystem _transformSystem = default!;
+    [Dependency] private readonly STMessengerSystem _messengerSystem = default!; // EN change
+    private STMessengerServerComponent _pdaServer = new(); // EN change
     private readonly Dictionary<string, float> _bandPoints = new();
     private readonly Dictionary<string, float> _factionPoints = new();
     private readonly Dictionary<EntityUid, TimeSpan> _lastRewardTimes = new();
@@ -147,6 +151,11 @@ public sealed partial class WarZoneSystem : EntitySystem
         SubscribeLocalEvent<WarZoneComponent, StartCollideEvent>(OnStartCollide);
         SubscribeLocalEvent<WarZoneComponent, EndCollideEvent>(OnEndCollide);
         SubscribeLocalEvent<MetaDataComponent, EntityTerminatingEvent>(OnEntityTerminating);
+
+        // EN change start
+        _pdaServer.OwnerCharacterName = "Warfare Announcer";
+        _pdaServer.SendCooldown = TimeSpan.FromSeconds(1);
+        // EN change end
     }
 
     private void OnWarZoneInit(EntityUid uid, WarZoneComponent component, ComponentInit args)
@@ -439,18 +448,20 @@ public sealed partial class WarZoneSystem : EntitySystem
         comp.CaptureProgressTime += effectiveFrameTime;
         comp.CaptureProgress = Math.Clamp(comp.CaptureProgressTime / wzProto.CaptureTime, 0f, 1f);
 
-        // Announce each 10% increment locally
-        var step = (int)(comp.CaptureProgress * 10);
-        if (step > comp.LastAnnouncedProgressStep)
-        {
-            comp.LastAnnouncedProgressStep = step;
-            if (feedbackEntity.HasValue)
-                AnnounceCaptureProgressLocal(zone, comp, step * 10);
-        }
-
-        // Check for Capture Completion
+        // EN change start
+        // Announce each 25% increment locally
+        var step = (int)(comp.CaptureProgress * 4);
         if (comp.CaptureProgressTime < wzProto.CaptureTime)
-            return; // Not captured yet
+        {
+            if (step > comp.LastAnnouncedProgressStep)
+            {
+                comp.LastAnnouncedProgressStep = step;
+                if (feedbackEntity.HasValue)
+                    AnnounceCaptureProgressLocal(zone, comp, step * 25);
+            }
+            return;
+        }
+        // EN change end
 
         // --- Capture Complete ---
 
@@ -492,10 +503,16 @@ public sealed partial class WarZoneSystem : EntitySystem
         }
 
         // Announce Server-Wide
-        _chatManager.DispatchServerAnnouncement(Loc.GetString(
-            "st-warzone-captured",
-            ("zone", comp.PortalName ?? "Unknown"),
-            ("attacker", finalOwnerName)));
+        // EN change start
+        _messengerSystem.ProcessSendMessage(
+            _pdaServer,
+            "STWar",
+            Loc.GetString("st-warzone-captured", ("zone", comp.PortalName ?? "Unknown"), ("attacker", finalOwnerName)),
+            false,
+            null,
+            null,
+            null);
+        // EN change end
 
         // Reset Reward Timer
         _lastRewardTimes[zone] = _gameTiming.CurTime;
@@ -842,7 +859,16 @@ public sealed partial class WarZoneSystem : EntitySystem
 
             var mapCoords = _transformSystem.GetMapCoordinates(zoneUid);
             var filter = Filter.Empty().AddInRange(mapCoords, ChatSystem.VoiceRange); // Use appropriate range
-            _chatManager.ChatMessageToManyFiltered(filter, ChatChannel.Emotes, message, message, zoneUid, false, true, colorOverride: null); // Consider ChatChannel choice
+            // EN change start
+            _messengerSystem.ProcessSendMessage(
+                _pdaServer,
+                "STWar",
+                message ?? "warzone capture text was null",
+                false,
+                null,
+                null,
+                null);
+            // EN change end
         }
 
         // Attacker info is reset in the main UpdateCaptureAsync logic where abandonment is detected
@@ -854,7 +880,16 @@ public sealed partial class WarZoneSystem : EntitySystem
         var message = Loc.GetString("st-warzone-capture-started", ("attacker", attackerName), ("zone", wzComp.PortalName ?? "Unknown"));
         var mapCoords = _transformSystem.GetMapCoordinates(zoneUid);
         var filter = Filter.Empty().AddInRange(mapCoords, ChatSystem.VoiceRange);
-        _chatManager.ChatMessageToManyFiltered(filter, ChatChannel.Emotes, message, message, zoneUid, false, true, colorOverride: null);
+        // EN change start
+        _messengerSystem.ProcessSendMessage(
+            _pdaServer,
+            "STWar",
+            message ?? "warzone capture text was null",
+            false,
+            null,
+            null,
+            null);
+        // EN change end
     }
 
 
@@ -864,7 +899,16 @@ public sealed partial class WarZoneSystem : EntitySystem
         var message = Loc.GetString("st-warzone-progress", ("zone", portalName), ("percent", percent));
         var mapCoords = _transformSystem.GetMapCoordinates(zoneUid);
         var filter = Filter.Empty().AddInRange(mapCoords, ChatSystem.VoiceRange);
-        _chatManager.ChatMessageToManyFiltered(filter, ChatChannel.Emotes, message, message, zoneUid, false, true, colorOverride: null);
+        // EN change start
+        _messengerSystem.ProcessSendMessage(
+            _pdaServer,
+            "STWar",
+            message ?? "warzone capture text was null",
+            false,
+            null,
+            null,
+            null);
+        // EN change end
     }
     // Load initial zone ownership and cooldown state from pre-fetched DB data
     private async Task LoadInitialZoneStateAsync(EntityUid zoneUid, WarZoneComponent component, StalkerZoneOwnership? ownership) // Added ownership parameter

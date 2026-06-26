@@ -419,22 +419,21 @@ public sealed partial class STMessengerSystem : EntitySystem
         if (string.IsNullOrEmpty(server.OwnerCharacterName))
             return;
 
-        ProcessSendMessage(ent, server, send.TargetChatId, content, send.IsAnonymous,
+        ProcessSendMessage(server, send.TargetChatId, content, send.IsAnonymous,
             send.ReplyToId, args.Actor, GetEntity(args.LoaderUid));
     }
 
     /// <summary>
     /// Core message processing: routing, creation, eviction, logging, notifications, broadcast.
     /// </summary>
-    private void ProcessSendMessage(
-        Entity<STMessengerComponent> ent,
+    public void ProcessSendMessage(
         STMessengerServerComponent server,
         string chatId,
         string content,
         bool isAnonymous,
         uint? replyToId,
-        EntityUid actor,
-        EntityUid loaderUid)
+        EntityUid? actor,
+        EntityUid? loaderUid)
     {
         var senderName = server.OwnerCharacterName;
         var senderKey = (server.OwnerUserId, senderName);

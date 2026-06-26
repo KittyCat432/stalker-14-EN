@@ -6,10 +6,17 @@
   broadcastToDiscord: true
 
 - type: stMessengerChannel
+  id: STWar
+  name: st-messenger-channel-war
+  color: "#AAAAAA"
+  sortOrder: 1
+  broadcastToDiscord: true
+
+- type: stMessengerChannel
   id: STRookie
   name: st-messenger-channel-rookie
   color: "#88CC88"
-  sortOrder: 1
+  sortOrder: 2
   broadcastToDiscord: true
 
 - type: stMessengerChannel

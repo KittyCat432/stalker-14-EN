@@ -12,7 +12,6 @@ namespace Content.Server._Stalker_EN.PdaMessenger;
 /// Not networked — client receives data via <see cref="STMessengerUiState"/> through the BUI system.
 /// </summary>
 [RegisterComponent, AutoGenerateComponentPause]
-[Access(typeof(STMessengerSystem))]
 public sealed partial class STMessengerServerComponent : Component
 {
     /// <summary>

@@ -5,6 +5,7 @@ st-messenger-program-name = Messenger
 
 # Channel names
 st-messenger-channel-general = General
+st-messenger-channel-war = Warfare
 st-messenger-channel-rookie = Rookie
 st-messenger-channel-loners = Loners
 st-messenger-channel-neutrals = Neutrals
