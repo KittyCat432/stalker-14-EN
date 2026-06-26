@@ -4,8 +4,8 @@ meta:
   engineVersion: 268.0.0
   forkId: ""
   forkVersion: ""
-  time: 05/19/2026 20:44:44
-  entityCount: 20008
+  time: 06/26/2026 18:11:56
+  entityCount: 20007
 maps:
 - 1
 grids:
@@ -31796,7 +31796,7 @@ entities:
       pos: 163.5,-3.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -1328.1387
+      secondsUntilStateChange: -3519.0583
       state: Opening
   - uid: 20005
     components:
@@ -33364,6 +33364,20 @@ entities:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 131.5,-88.5
+      parent: 1
+- proto: DollarShopFreedom
+  entities:
+  - uid: 19003
+    components:
+    - type: Transform
+      pos: 73.5,33.5
+      parent: 1
+- proto: DollarShopMercenary
+  entities:
+  - uid: 18995
+    components:
+    - type: Transform
+      pos: -76.5,-54.5
       parent: 1
 - proto: DrinkBottleVodka
   entities:
@@ -68587,6 +68601,11 @@ entities:
     - type: Transform
       pos: 155.5,23.5
       parent: 1
+  - uid: 18369
+    components:
+    - type: Transform
+      pos: 74.5,30.5
+      parent: 1
   - uid: 19572
     components:
     - type: Transform
@@ -68662,13 +68681,6 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 1.5,82.5
       parent: 1
-- proto: MetalGrateDoorFalloutBarthenderClosed
-  entities:
-  - uid: 18369
-    components:
-    - type: Transform
-      pos: 74.5,30.5
-      parent: 1
 - proto: MetalRedDoorFallout
   entities:
   - uid: 13809
@@ -68739,77 +68751,11 @@ entities:
       parent: 1
 - proto: NPCMercHummingbirdEN
   entities:
-  - uid: 18995
+  - uid: 19011
     components:
     - type: Transform
-      pos: -74.495186,-55.329033
+      pos: -73.4,-55.35
       parent: 1
-    - type: ContainerContainer
-      containers:
-        body_root_part: !type:ContainerSlot
-          showEnts: False
-          occludes: True
-          ent: null
-        shoes: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        jumpsuit: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        outerClothing: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        gloves: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        neck: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        mask: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        eyes: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        ears: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        head: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        pocket1: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        pocket2: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        suitstorage: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        id: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        belt: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
-        back: !type:ContainerSlot
-          showEnts: False
-          occludes: False
-          ent: null
 - proto: OldBlackTable
   entities:
   - uid: 300
@@ -70286,11 +70232,6 @@ entities:
     components:
     - type: Transform
       pos: 12.5,68.5
-      parent: 1
-  - uid: 19011
-    components:
-    - type: Transform
-      pos: -75.5,-56.5
       parent: 1
 - proto: Paper
   entities:
@@ -92541,11 +92482,6 @@ entities:
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: 77.5,-42.5
-      parent: 1
-  - uid: 19003
-    components:
-    - type: Transform
-      pos: -76.5,-54.5
       parent: 1
 - proto: STCacheT2Spawner25
   entities:
@@ -135545,11 +135481,6 @@ entities:
     components:
     - type: Transform
       pos: 172.5,14.5
-      parent: 1
-  - uid: 20007
-    components:
-    - type: Transform
-      pos: 73.5,33.5
       parent: 1
 - proto: WoodenGreenBox2
   entities:
