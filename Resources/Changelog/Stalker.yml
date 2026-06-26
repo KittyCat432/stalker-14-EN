@@ -3396,5 +3396,12 @@
   id: 382
   time: '2026-06-26T09:48:04.766587+00:00'
   url: https://github.com/stalker-14-EN/stalker-14-EN/pull/1005
+- author: Mooringt
+  changes:
+  - message: Tactical Rigs
+    type: Add
+  id: 383
+  time: '2026-06-26T10:07:51.490413+00:00'
+  url: https://github.com/stalker-14-EN/stalker-14-EN/pull/1007
 Name: Stalker
 Order: -1
