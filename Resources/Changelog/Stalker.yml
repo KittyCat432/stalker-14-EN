@@ -3403,5 +3403,12 @@
   id: 383
   time: '2026-06-26T10:07:51.490413+00:00'
   url: https://github.com/stalker-14-EN/stalker-14-EN/pull/1007
+- author: dallaszzz
+  changes:
+  - message: Moves eco and military back into agroprom
+    type: Tweak
+  id: 384
+  time: '2026-06-26T16:09:42.589045+00:00'
+  url: https://github.com/stalker-14-EN/stalker-14-EN/pull/1006
 Name: Stalker
 Order: -1
