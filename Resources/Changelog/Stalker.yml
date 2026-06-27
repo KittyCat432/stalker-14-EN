@@ -3441,5 +3441,14 @@
   id: 387
   time: '2026-06-27T11:51:19.125717+00:00'
   url: https://github.com/stalker-14-EN/stalker-14-EN/pull/1011
+- author: Llfiend
+  changes:
+  - message: SCAR-H nerf
+    type: Tweak
+  - message: Galatz adjustment
+    type: Tweak
+  id: 388
+  time: '2026-06-27T18:13:18.545325+00:00'
+  url: https://github.com/stalker-14-EN/stalker-14-EN/pull/1009
 Name: Stalker
 Order: -1
