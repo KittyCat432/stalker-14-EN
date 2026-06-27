@@ -4,8 +4,8 @@ meta:
   engineVersion: 268.0.0
   forkId: ""
   forkVersion: ""
-  time: 06/26/2026 18:11:45
-  entityCount: 16284
+  time: 06/27/2026 08:31:29
+  entityCount: 16338
 maps:
 - 1
 grids:
@@ -94773,6 +94773,13 @@ entities:
     - type: Transform
       pos: -192.5,-160.5
       parent: 1
+- proto: StalkerDublicateSci
+  entities:
+  - uid: 7519
+    components:
+    - type: Transform
+      pos: -196.5,-137.5
+      parent: 1
 - proto: StalkerExplSafezoneTriggerIn
   entities:
   - uid: 12035
@@ -99285,13 +99292,6 @@ entities:
     components:
     - type: Transform
       pos: -129.5,-10.5
-      parent: 1
-- proto: StalkerTeleportSci
-  entities:
-  - uid: 7519
-    components:
-    - type: Transform
-      pos: -196.5,-137.5
       parent: 1
 - proto: StalkerTimedSpawner30
   entities:
@@ -108016,6 +108016,280 @@ entities:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: -169.21973,-83.42578
+      parent: 1
+- proto: STPvpZoneTriggerFactionIn
+  entities:
+  - uid: 10695
+    components:
+    - type: Transform
+      pos: -159.5,-82.5
+      parent: 1
+  - uid: 10696
+    components:
+    - type: Transform
+      pos: -165.5,-66.5
+      parent: 1
+  - uid: 10697
+    components:
+    - type: Transform
+      pos: -162.5,-86.5
+      parent: 1
+  - uid: 10698
+    components:
+    - type: Transform
+      pos: -162.5,-85.5
+      parent: 1
+  - uid: 10699
+    components:
+    - type: Transform
+      pos: -162.5,-84.5
+      parent: 1
+  - uid: 10701
+    components:
+    - type: Transform
+      pos: -193.5,-64.5
+      parent: 1
+  - uid: 10702
+    components:
+    - type: Transform
+      pos: -192.5,-64.5
+      parent: 1
+  - uid: 10703
+    components:
+    - type: Transform
+      pos: -191.5,-64.5
+      parent: 1
+  - uid: 10706
+    components:
+    - type: Transform
+      pos: -198.5,-64.5
+      parent: 1
+  - uid: 10712
+    components:
+    - type: Transform
+      pos: -165.5,-66.5
+      parent: 1
+  - uid: 10713
+    components:
+    - type: Transform
+      pos: -165.5,-65.5
+      parent: 1
+  - uid: 10714
+    components:
+    - type: Transform
+      pos: -166.5,-65.5
+      parent: 1
+  - uid: 10715
+    components:
+    - type: Transform
+      pos: -167.5,-65.5
+      parent: 1
+  - uid: 10716
+    components:
+    - type: Transform
+      pos: -167.5,-66.5
+      parent: 1
+  - uid: 10717
+    components:
+    - type: Transform
+      pos: -166.5,-66.5
+      parent: 1
+  - uid: 10718
+    components:
+    - type: Transform
+      pos: -167.5,-67.5
+      parent: 1
+  - uid: 10719
+    components:
+    - type: Transform
+      pos: -166.5,-67.5
+      parent: 1
+  - uid: 10720
+    components:
+    - type: Transform
+      pos: -165.5,-67.5
+      parent: 1
+  - uid: 10721
+    components:
+    - type: Transform
+      pos: -204.5,-158.5
+      parent: 1
+  - uid: 10722
+    components:
+    - type: Transform
+      pos: -203.5,-158.5
+      parent: 1
+  - uid: 10723
+    components:
+    - type: Transform
+      pos: -202.5,-158.5
+      parent: 1
+  - uid: 10724
+    components:
+    - type: Transform
+      pos: -202.5,-159.5
+      parent: 1
+  - uid: 10725
+    components:
+    - type: Transform
+      pos: -203.5,-159.5
+      parent: 1
+  - uid: 10726
+    components:
+    - type: Transform
+      pos: -204.5,-159.5
+      parent: 1
+  - uid: 10727
+    components:
+    - type: Transform
+      pos: -204.5,-160.5
+      parent: 1
+  - uid: 10728
+    components:
+    - type: Transform
+      pos: -203.5,-160.5
+      parent: 1
+  - uid: 10729
+    components:
+    - type: Transform
+      pos: -202.5,-160.5
+      parent: 1
+  - uid: 10730
+    components:
+    - type: Transform
+      pos: -200.5,-136.5
+      parent: 1
+  - uid: 10731
+    components:
+    - type: Transform
+      pos: -199.5,-136.5
+      parent: 1
+  - uid: 10732
+    components:
+    - type: Transform
+      pos: -199.5,-136.5
+      parent: 1
+  - uid: 10733
+    components:
+    - type: Transform
+      pos: -198.5,-137.5
+      parent: 1
+  - uid: 10734
+    components:
+    - type: Transform
+      pos: -200.5,-137.5
+      parent: 1
+  - uid: 10735
+    components:
+    - type: Transform
+      pos: -199.5,-137.5
+      parent: 1
+  - uid: 10736
+    components:
+    - type: Transform
+      pos: -200.5,-138.5
+      parent: 1
+  - uid: 10737
+    components:
+    - type: Transform
+      pos: -199.5,-138.5
+      parent: 1
+  - uid: 10738
+    components:
+    - type: Transform
+      pos: -198.5,-138.5
+      parent: 1
+  - uid: 10739
+    components:
+    - type: Transform
+      pos: -198.5,-136.5
+      parent: 1
+  - uid: 10740
+    components:
+    - type: Transform
+      pos: -197.5,-136.5
+      parent: 1
+  - uid: 10741
+    components:
+    - type: Transform
+      pos: -196.5,-136.5
+      parent: 1
+  - uid: 10742
+    components:
+    - type: Transform
+      pos: -195.5,-136.5
+      parent: 1
+  - uid: 10743
+    components:
+    - type: Transform
+      pos: -195.5,-137.5
+      parent: 1
+  - uid: 10744
+    components:
+    - type: Transform
+      pos: -196.5,-137.5
+      parent: 1
+  - uid: 10745
+    components:
+    - type: Transform
+      pos: -197.5,-137.5
+      parent: 1
+  - uid: 10746
+    components:
+    - type: Transform
+      pos: -197.5,-138.5
+      parent: 1
+  - uid: 10747
+    components:
+    - type: Transform
+      pos: -196.5,-138.5
+      parent: 1
+  - uid: 10748
+    components:
+    - type: Transform
+      pos: -195.5,-138.5
+      parent: 1
+- proto: STPvpZoneTriggerFactionOut
+  entities:
+  - uid: 10700
+    components:
+    - type: Transform
+      pos: -160.5,-84.5
+      parent: 1
+  - uid: 10704
+    components:
+    - type: Transform
+      pos: -160.5,-85.5
+      parent: 1
+  - uid: 10705
+    components:
+    - type: Transform
+      pos: -160.5,-86.5
+      parent: 1
+  - uid: 10707
+    components:
+    - type: Transform
+      pos: -198.5,-62.5
+      parent: 1
+  - uid: 10708
+    components:
+    - type: Transform
+      pos: -193.5,-62.5
+      parent: 1
+  - uid: 10709
+    components:
+    - type: Transform
+      pos: -191.5,-62.5
+      parent: 1
+  - uid: 10710
+    components:
+    - type: Transform
+      pos: -192.5,-62.5
+      parent: 1
+  - uid: 10711
+    components:
+    - type: Transform
+      pos: -159.5,-84.5
       parent: 1
 - proto: STReinforcedWindow
   entities:
