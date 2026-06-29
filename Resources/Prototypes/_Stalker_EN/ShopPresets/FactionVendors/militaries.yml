@@ -354,6 +354,8 @@
       ClothingTorsoTurtlenecksGorka6B: 50
       ClothingTorsoTurtlenecksKhakiTurtleneck: 50
       ClothingTorsoTurtlenecksMatrosska: 50
+      STClothingNeckFacescarfBlack: 50
+      STClothingNeckFacescarfLightGreen: 50
 
   - name: Smokables #explained using D&D lifestyle expenses
     priority: 13

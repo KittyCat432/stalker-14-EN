@@ -82,6 +82,35 @@
 
 - type: entity
   parent: STBaseWeaponRifleM4
+  id: STWeaponRifleM4UN
+  name: Colt M4
+  description: Американская штурмовая винтовка, ставшая символом современных конфликтов. В Зону попадает с западными наёмниками и военными экспедициями. Лёгкая, точная и безотказная в любых условиях.
+  components:
+  - type: Item
+    sprite: _Stalker/Objects/Weapons/Guns/Rifles/m4UN/inhand.rsi
+  - type: Sprite
+    sprite: _Stalker/Objects/Weapons/Guns/Rifles/m4UN/icon.rsi
+  - type: Clothing
+    sprite: _Stalker/Objects/Weapons/Guns/Rifles/m4UN/inhand.rsi
+    equipDelay: 2
+  - type: Gun
+    soundGunshot:
+      path: /Audio/_Stalker/Effects/Guns/m4.ogg
+      params:
+        volume: -2
+    minAngle: 46
+    maxAngle: 80
+    fireRate: 6
+    angleIncrease: 1.2
+    angleDecay: 5.5
+    projectileSpeed: 60
+    selectedMode: FullAuto
+    availableModes:
+    - SemiAuto
+    - FullAuto
+
+- type: entity
+  parent: STBaseWeaponRifleM4
   id: STWeaponRifleHK416
   name: HK416
   suffix: ST, Кастомка

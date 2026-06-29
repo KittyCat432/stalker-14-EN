@@ -366,6 +366,8 @@
         # NECK
         ClothingBandageStalkerKrest: 10
         ClothingNeckScarfGray: 100
+        STClothingNeckFacescarfBlack: 100
+        STClothingNeckFacescarfBlue: 100
         # faction
         ClothingBandageStalkerMerc: 10
         ClothingNeckMantleMerc: 100

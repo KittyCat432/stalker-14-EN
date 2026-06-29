@@ -35,6 +35,7 @@
         # OuterClothing #
         STClothingOuterPressVest: 100 # T1
         STClothingOuterArmorPressVest: 1000 # T2
+        ClothingOuterArmorRCBZJournalists: 1000 #T2
     - name: shop-category-storage-and-containers
       priority: 5
       items:

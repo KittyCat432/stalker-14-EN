@@ -459,6 +459,8 @@
         ClothingMaskSkull: 100
         # NECK
         # faction
+        STClothingNeckFacescarfBlackSkull: 100
+        STClothingNeckFacescarfBlack: 100
         ClothingNeckScarfBandit: 100
         ClothingBandageStalkerBand: 10
         # TORSO
