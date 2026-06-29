@@ -182,21 +182,21 @@
   suffix: ST, T3
   components:
   - type: STWeight
-    self: 5
+    self: 4 # Stalker EN - No armor means lower weight!
   - type: Sprite
     sprite: _Stalker/Objects/Clothing/cloak/august.rsi
   - type: Clothing
     sprite: _Stalker/Objects/Clothing/cloak/august.rsi
-  - type: Armor
-    armorClass: 2
-    modifiers:
-      coefficients:
-        Blunt: 0.9
-        Slash: 0.9
-        Piercing: 0.9
-        Heat: 0.9
-        Caustic: 0.9
-        Radiation: 0.9
+  #- type: Armor Stalker EN - Removed kevlar coat armor.
+  #  armorClass: 2
+  #  modifiers:
+  #    coefficients:
+  #      Blunt: 0.9
+  #      Slash: 0.9
+  #      Piercing: 0.9
+  #      Heat: 0.9
+  #      Caustic: 0.9
+  #      Radiation: 0.9
   - type: Storage
     maxItemSize: Normal
     grid:
@@ -212,8 +212,8 @@
     blacklist: # EN
       tags:
       - STArtifact
-  - type: ExplosionResistance
-    damageCoefficient: 0.85
+  #- type: ExplosionResistance Stalker EN - Removed kevlar coat armor.
+  #  damageCoefficient: 0.85
   - type: UserInterface
     interfaces:
       enum.StorageUiKey.Key:
@@ -231,21 +231,21 @@
   suffix: ST, T3
   components:
   - type: STWeight
-    self: 6
+    self: 4 # Stalker EN - No armor means lower weight!
   - type: Sprite
     sprite: _Stalker/Objects/Clothing/cloak/august-m.rsi
   - type: Clothing
     sprite: _Stalker/Objects/Clothing/cloak/august-m.rsi
-  - type: Armor
-    armorClass: 2
-    modifiers:
-      coefficients:
-        Blunt: 0.9
-        Slash: 0.9
-        Piercing: 0.9
-        Heat: 0.9
-        Caustic: 0.9
-        Radiation: 0.9
+  #- type: Armor Stalker EN - Removed kevlar coat armor.
+  #  armorClass: 2
+  #  modifiers:
+  #    coefficients:
+  #      Blunt: 0.9
+  #      Slash: 0.9
+  #      Piercing: 0.9
+  #      Heat: 0.9
+  #      Caustic: 0.9
+  #      Radiation: 0.9
   - type: Storage
     maxItemSize: Normal
     grid:
@@ -261,8 +261,8 @@
     blacklist: # EN
       tags:
       - STArtifact
-  - type: ExplosionResistance
-    damageCoefficient: 0.85
+  #- type: ExplosionResistance Stalker EN - Removed kevlar coat armor.
+  #  damageCoefficient: 0.85
   - type: UserInterface
     interfaces:
       enum.StorageUiKey.Key:
