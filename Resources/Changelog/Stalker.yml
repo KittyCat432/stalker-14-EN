@@ -3450,5 +3450,12 @@
   id: 388
   time: '2026-06-27T18:13:18.545325+00:00'
   url: https://github.com/stalker-14-EN/stalker-14-EN/pull/1009
+- author: Nox38
+  changes:
+  - message: Removed armor from August and August-M raincoats.
+    type: Remove
+  id: 389
+  time: '2026-06-29T00:31:24.360761+00:00'
+  url: https://github.com/stalker-14-EN/stalker-14-EN/pull/1012
 Name: Stalker
 Order: -1
