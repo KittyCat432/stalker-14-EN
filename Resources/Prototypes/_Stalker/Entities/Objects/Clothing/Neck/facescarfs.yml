@@ -8,7 +8,7 @@
       sprite: _Stalker/Objects/Clothing/Neck/facescarfs/facescarf_black.rsi
     - type: Clothing
       sprite: _Stalker/Objects/Clothing/Neck/facescarfs/facescarf_black.rsi
-      slots: [mask, neck]
+      slots: [ mask, neck ]
     - type: IdentityBlocker
       coverage: MOUTH
 
@@ -22,6 +22,7 @@
       sprite: _Stalker/Objects/Clothing/Neck/facescarfs/facescarf_blue.rsi
     - type: Clothing
       sprite: _Stalker/Objects/Clothing/Neck/facescarfs/facescarf_blue.rsi
+      slots: [ mask, neck ]
 
 - type: entity
   parent: STClothingNeckFacescarfBlack
@@ -33,6 +34,7 @@
       sprite: _Stalker/Objects/Clothing/Neck/facescarfs/facescarf_green.rsi
     - type: Clothing
       sprite: _Stalker/Objects/Clothing/Neck/facescarfs/facescarf_green.rsi
+      slots: [ mask, neck ]
 
 - type: entity
   parent: STClothingNeckFacescarfBlack
@@ -44,6 +46,7 @@
       sprite: _Stalker/Objects/Clothing/Neck/facescarfs/facescarf_grey.rsi
     - type: Clothing
       sprite: _Stalker/Objects/Clothing/Neck/facescarfs/facescarf_grey.rsi
+      slots: [ mask, neck ]
 
 - type: entity
   parent: STClothingNeckFacescarfBlack
@@ -55,6 +58,7 @@
       sprite: _Stalker/Objects/Clothing/Neck/facescarfs/facescarf_orange.rsi
     - type: Clothing
       sprite: _Stalker/Objects/Clothing/Neck/facescarfs/facescarf_orange.rsi
+      slots: [ mask, neck ]
 
 - type: entity
   parent: STClothingNeckFacescarfBlack
@@ -66,6 +70,7 @@
       sprite: _Stalker/Objects/Clothing/Neck/facescarfs/facescarf_purple.rsi
     - type: Clothing
       sprite: _Stalker/Objects/Clothing/Neck/facescarfs/facescarf_purple.rsi
+      slots: [ mask, neck ]
 
 - type: entity
   parent: STClothingNeckFacescarfBlack
@@ -77,6 +82,7 @@
       sprite: _Stalker/Objects/Clothing/Neck/facescarfs/facescarf_red.rsi
     - type: Clothing
       sprite: _Stalker/Objects/Clothing/Neck/facescarfs/facescarf_red.rsi
+      slots: [ mask, neck ]
 
 - type: entity
   parent: STClothingNeckFacescarfBlack
@@ -88,6 +94,7 @@
       sprite: _Stalker/Objects/Clothing/Neck/facescarfs/facescarf_white.rsi
     - type: Clothing
       sprite: _Stalker/Objects/Clothing/Neck/facescarfs/facescarf_white.rsi
+      slots: [ mask, neck ]
 
 - type: entity
   parent: STClothingNeckFacescarfBlack
@@ -100,6 +107,7 @@
       sprite: _Stalker/Objects/Clothing/Neck/facescarfs/araphatka-blacksckull.rsi
     - type: Clothing
       sprite: _Stalker/Objects/Clothing/Neck/facescarfs/araphatka-blacksckull.rsi
+      slots: [ mask, neck ]
 
 - type: entity
   parent: STClothingNeckFacescarfBlack
@@ -112,6 +120,7 @@
       sprite: _Stalker/Objects/Clothing/Neck/facescarfs/araphatka-boloto.rsi
     - type: Clothing
       sprite: _Stalker/Objects/Clothing/Neck/facescarfs/araphatka-boloto.rsi
+      slots: [ mask, neck ]
 
 - type: entity
   parent: STClothingNeckFacescarfBlack
@@ -124,3 +133,4 @@
       sprite: _Stalker/Objects/Clothing/Neck/facescarfs/araphatka-green.rsi
     - type: Clothing
       sprite: _Stalker/Objects/Clothing/Neck/facescarfs/araphatka-green.rsi
+      slots: [ mask, neck ]
