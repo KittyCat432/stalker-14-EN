@@ -13,8 +13,8 @@
     damage:
       types:
         Piercing: 26
-  - type: StaminaDamageOnCollide
-    damage: 2
+  # - type: StaminaDamageOnCollide
+    # damage: 2
 
 - type: entity
   id: Bullet545PC

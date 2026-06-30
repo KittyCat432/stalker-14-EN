@@ -34,8 +34,8 @@
       types:
         Piercing: 65
         Blunt: 15
-  - type: StaminaDamageOnCollide
-    damage: 35
+  # - type: StaminaDamageOnCollide
+    # damage: 35
 
 - type: entity
   id: BulletShotgunVolnaR

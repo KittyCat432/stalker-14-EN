@@ -18,5 +18,5 @@
     damage:
       types:
         Heat: 18
-  - type: StaminaDamageOnCollide
-    damage: 10
+  # - type: StaminaDamageOnCollide
+    # damage: 10

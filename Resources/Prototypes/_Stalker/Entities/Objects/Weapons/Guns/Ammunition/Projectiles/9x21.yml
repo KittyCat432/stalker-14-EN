@@ -13,8 +13,8 @@
     damage:
       types:
         Piercing: 34
-  - type: StaminaDamageOnCollide
-    damage: 4
+  # - type: StaminaDamageOnCollide
+    # damage: 4
 
 - type: entity
   id: Bullet921PEGJ

@@ -10,8 +10,8 @@
     damage:
       types:
         Piercing: 30
-  - type: StaminaDamageOnCollide
-    damage: 10
+  # - type: StaminaDamageOnCollide
+    # damage: 10
 
 - type: entity
   parent: STBaseLRBullet
@@ -25,5 +25,5 @@
     damage:
       types:
         Piercing: 35
-  - type: StaminaDamageOnCollide
-    damage: 15
+  # - type: StaminaDamageOnCollide
+    # damage: 15

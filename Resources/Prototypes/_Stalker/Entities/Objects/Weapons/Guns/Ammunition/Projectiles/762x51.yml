@@ -13,8 +13,8 @@
     damage:
       types:
         Piercing: 35
-  - type: StaminaDamageOnCollide
-    damage: 7
+  # - type: StaminaDamageOnCollide
+    # damage: 7
 
 - type: entity
   id: Bullet751Noiser

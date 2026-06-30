@@ -12,8 +12,8 @@
         Piercing: 20
         Blunt: 20
         Slash: 20
-  - type: StaminaDamageOnCollide
-    damage: 20
+  # - type: StaminaDamageOnCollide
+    # damage: 20
 
 - type: entity
   parent: STBaseSHRBullet
@@ -26,8 +26,8 @@
     damage:
       types:
         Piercing: 114
-  - type: StaminaDamageOnCollide
-    damage: 20
+  # - type: StaminaDamageOnCollide
+    # damage: 20
 
 - type: entity
   parent: STBaseSHRBullet
@@ -40,5 +40,5 @@
     damage:
       types:
         Piercing: 118
-  - type: StaminaDamageOnCollide
-    damage: 20
+  # - type: StaminaDamageOnCollide
+    # damage: 20
