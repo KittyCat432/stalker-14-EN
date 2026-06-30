@@ -3471,5 +3471,12 @@
   id: 391
   time: '2026-06-30T08:08:43.442108+00:00'
   url: https://github.com/stalker-14-EN/stalker-14-EN/pull/1019
+- author: Llfiend
+  changes:
+  - message: Silencer changes
+    type: Tweak
+  id: 392
+  time: '2026-06-30T15:38:33.027171+00:00'
+  url: https://github.com/stalker-14-EN/stalker-14-EN/pull/1020
 Name: Stalker
 Order: -1
