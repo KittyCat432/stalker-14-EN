@@ -163,9 +163,9 @@
       ClothingHeadBeretMonolith: 1
       ClothingOuterJacketMonolith: 1
       ClothingNeckMantleMono: 3
-      #STClothingNeckFacescarfWhite: 1
-      #STClothingNeckFacescarfGrey: 1
-      #STClothingNeckFacescarfBlack: 1
+      STClothingNeckFacescarfWhite: 1
+      STClothingNeckFacescarfGrey: 1
+      STClothingNeckFacescarfBlack: 1
 
   - name: shop-category-utilities
     priority: 7

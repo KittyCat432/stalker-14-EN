@@ -379,8 +379,8 @@
       # NECK
       ClothingNeckScarfBrown: 100
       ClothingNeckScarfGray: 100
-      #STClothingNeckFacescarfOrange: 100
-      #STClothingNeckFacescarfBlackSkull: 100
+      STClothingNeckFacescarfOrange: 100
+      STClothingNeckFacescarfBlackSkull: 100
       # faction
       ClothingCapeRenegat: 100
       ClothingBandageStalkerYellow: 10
