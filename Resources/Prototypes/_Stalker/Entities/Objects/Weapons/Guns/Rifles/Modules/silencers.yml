@@ -27,7 +27,7 @@
     - type: STWeaponModule
       effect:
         soundGunshotVolumeAddition: -5
-        farshotSoundDecrease: 0.4
+        farshotSoundDecrease: 0.8 # EN, 0.4 -> 0.8
     - type: Sprite
       state: silencer_T1_ru
     - type: Icon
@@ -44,8 +44,8 @@
         - STWeaponModuleRifleSilencerNato
     - type: STWeaponModule
       effect:
-        soundGunshotVolumeAddition: -5
-        farshotSoundDecrease: 0.4
+        # soundGunshotVolumeAddition: -5
+        farshotSoundDecrease: 0.8 # EN, 0.4 -> 0.8
     - type: Sprite
       state: silencer_T1_nato
     - type: Icon
@@ -66,8 +66,8 @@
         - STWeaponModuleRifleSilencerRu
     - type: STWeaponModule
       effect:
-        soundGunshotVolumeAddition: -10
-        farshotSoundDecrease: 0.2
+        # soundGunshotVolumeAddition: -10
+        farshotSoundDecrease: 0.6 # EN, 0.2 -> 0.6
     - type: Sprite
       state: silencer_T2_ru
     - type: Icon
@@ -84,8 +84,8 @@
         - STWeaponModuleRifleSilencerNato
     - type: STWeaponModule
       effect:
-        soundGunshotVolumeAddition: -10
-        farshotSoundDecrease: 0.2
+        # soundGunshotVolumeAddition: -10
+        farshotSoundDecrease: 0.6 # EN, 0.2 -> 0.6
     - type: Sprite
       state: silencer_T2_nato
     - type: Icon

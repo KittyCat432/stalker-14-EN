@@ -55,6 +55,8 @@
     accuracyMultiplier: 1.2
   - type: STWeaponDamageFalloff
     falloffMultiplier: 0.8
+  - type: FarGunshot # EN
+    range: 225
 
 - type: entity
   parent: STWeaponRifleStalkerAK12en

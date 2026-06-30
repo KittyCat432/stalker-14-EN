@@ -45,7 +45,7 @@ public partial struct STWeaponModuleEffect()
             MinAngleModifier = effectA.MinAngleModifier * effectB.MinAngleModifier,
             ProjectileSpeedModifier = effectA.ProjectileSpeedModifier * effectB.ProjectileSpeedModifier,
             SoundGunshotVolumeAddition = effectA.SoundGunshotVolumeAddition + effectB.SoundGunshotVolumeAddition,
-            FarshotSoundDecrease = effectA.FarshotSoundDecrease + effectB.FarshotSoundDecrease,
+            FarshotSoundDecrease = effectA.FarshotSoundDecrease * effectB.FarshotSoundDecrease, // EN, changed to multiplicative (0.4 modifier decreases range by 60%)
             AdditionalAvailableModes = effectA.AdditionalAvailableModes | effectB.AdditionalAvailableModes,
         };
     }

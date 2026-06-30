@@ -61,6 +61,8 @@
   - type: Scope
     zoom: 1.1
     offset: 21
+  - type: FarGunshot # EN
+    range: 225
 
 - type: entity
   parent: STBaseWeaponRifleG36

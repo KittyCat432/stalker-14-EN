@@ -5,7 +5,7 @@
   components:
   - type: FarGunshot
     sound: /Audio/_DZ/Effects/FarGunshots/supressed1.ogg
-    silencerDecrease: 0.1
+    silencerDecrease: 0.25 # EN, 0.1 -> 0.25
   - type: Clothing
     sprite: _Stalker/Objects/Weapons/Guns/Snipers/VSS/base.rsi
     equipDelay: 1.5

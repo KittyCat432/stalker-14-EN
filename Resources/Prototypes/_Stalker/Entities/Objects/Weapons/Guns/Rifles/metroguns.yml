@@ -53,3 +53,5 @@
     accuracyMultiplier: 1.55
   - type: FarGunshot
     sound: /Audio/_DZ/Effects/FarGunshots/supressed1.ogg
+    range: 225 # EN
+    silencerDecrease: 0.4 # EN

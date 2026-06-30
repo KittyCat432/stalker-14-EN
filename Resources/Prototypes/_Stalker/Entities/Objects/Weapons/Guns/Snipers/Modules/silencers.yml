@@ -23,8 +23,8 @@
       - STWeaponModuleSniperSilencer
   - type: STWeaponModule
     effect:
-      soundGunshotVolumeAddition: -7
-      farshotSoundDecrease: 0.4
+      # soundGunshotVolumeAddition: -7
+      farshotSoundDecrease: 0.8 # EN, 0.4 -> 0.8
   - type: Sprite
     state: sniper_silencer_T1
   - type: Icon
@@ -41,8 +41,8 @@
       - STWeaponModuleSniperSilencer
   - type: STWeaponModule
     effect:
-      soundGunshotVolumeAddition: -14
-      farshotSoundDecrease: 0.2
+      # soundGunshotVolumeAddition: -14
+      farshotSoundDecrease: 0.6 # EN, 0.2 -> 0.6
   - type: Sprite
     state: sniper_silencer_T2
   - type: Icon
