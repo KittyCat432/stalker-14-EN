@@ -375,8 +375,8 @@
       ClothingBandageStalkerUk: 10
       ClothingBandageStalkerRus: 10
       ClothingBandageStalkerArgentina: 10
-      STClothingNeckFacescarfGrey: 100
-      STClothingNeckFacescarfBlue: 100
+      #STClothingNeckFacescarfGrey: 100
+      #STClothingNeckFacescarfBlue: 100
       # faction
       ClothingBandageStalkerWhite: 10
       ClothingNeckScarfNeutral: 100
