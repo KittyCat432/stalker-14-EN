@@ -3464,5 +3464,12 @@
   id: 390
   time: '2026-06-29T03:53:04.675806+00:00'
   url: https://github.com/stalker-14-EN/stalker-14-EN/pull/1015
+- author: Llfiend
+  changes:
+  - message: No more stam dmg from bullets
+    type: Remove
+  id: 391
+  time: '2026-06-30T08:08:43.442108+00:00'
+  url: https://github.com/stalker-14-EN/stalker-14-EN/pull/1019
 Name: Stalker
 Order: -1
