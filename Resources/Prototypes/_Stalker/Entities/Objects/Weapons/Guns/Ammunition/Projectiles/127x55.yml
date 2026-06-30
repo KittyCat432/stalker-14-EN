@@ -14,8 +14,8 @@
         Blunt: 6
         Slash: 6
         Piercing: 44.5
-  - type: StaminaDamageOnCollide
-    damage: 5
+  # - type: StaminaDamageOnCollide
+    # damage: 5
 
 - type: entity
   id: Bullet1255TP
@@ -32,8 +32,8 @@
         Blunt: 6.5
         Slash: 6.5
         Piercing: 54
-  - type: StaminaDamageOnCollide
-    damage: 5
+  # - type: StaminaDamageOnCollide
+    # damage: 5
 
 
 - type: entity
@@ -49,5 +49,5 @@
     damage:
       types:
         Piercing: 65
-  - type: StaminaDamageOnCollide
-    damage: 5
+  # - type: StaminaDamageOnCollide
+    # damage: 5

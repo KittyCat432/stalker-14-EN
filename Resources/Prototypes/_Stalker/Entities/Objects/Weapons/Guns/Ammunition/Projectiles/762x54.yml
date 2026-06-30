@@ -13,8 +13,8 @@
         Piercing: 10
         Blunt: 10
         Slash: 10
-  - type: StaminaDamageOnCollide
-    damage: 10
+  # - type: StaminaDamageOnCollide
+    # damage: 10
 
 - type: entity
   parent: STBaseHRBullet
@@ -27,8 +27,8 @@
     damage:
       types:
         Piercing: 57
-  - type: StaminaDamageOnCollide
-    damage: 10
+  # - type: StaminaDamageOnCollide
+    # damage: 10
 
 - type: entity
   parent: STBaseHRBullet
@@ -41,8 +41,8 @@
     damage:
       types:
         Piercing: 59
-  - type: StaminaDamageOnCollide
-    damage: 10
+  # - type: StaminaDamageOnCollide
+    # damage: 10
 
 - type: entity
   parent: STBaseHRBullet
@@ -55,8 +55,8 @@
     damage:
       types:
         Piercing: 62
-  - type: StaminaDamageOnCollide
-    damage: 10
+  # - type: StaminaDamageOnCollide
+    # damage: 10
 
 - type: entity
   parent: STBaseHRBullet
@@ -69,5 +69,5 @@
     damage:
       types:
         Piercing: 65
-  - type: StaminaDamageOnCollide
-    damage: 10
+  # - type: StaminaDamageOnCollide
+    # damage: 10

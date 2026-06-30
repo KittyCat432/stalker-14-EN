@@ -8,8 +8,8 @@
   - type: Sprite
     sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
     state: buckshot
-  - type: StaminaDamageOnCollide
-    damage: 0.1
+  # - type: StaminaDamageOnCollide
+    # damage: 0.1
   - type: TimedDespawn
     lifetime: 1
 # 7mm
@@ -123,8 +123,8 @@
     damage:
       types:
         Piercing: 40
-  - type: StaminaDamageOnCollide
-    damage: 20
+  # - type: StaminaDamageOnCollide
+    # damage: 20
 
 
 - type: entity
@@ -140,8 +140,8 @@
         Blunt: 10
         Slash: 10
         Mutant: 100
-  - type: StaminaDamageOnCollide
-    damage: 20
+  # - type: StaminaDamageOnCollide
+    # damage: 20
 
 - type: entity
   id: BulletShotgunDart
@@ -154,8 +154,8 @@
     damage:
       types:
         Piercing: 35
-  - type: StaminaDamageOnCollide
-    damage: 20
+  # - type: StaminaDamageOnCollide
+    # damage: 20
 
 - type: entity
   id: PelletShotgunBeanbagStalker
