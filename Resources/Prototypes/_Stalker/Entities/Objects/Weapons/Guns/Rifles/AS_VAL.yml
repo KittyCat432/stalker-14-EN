@@ -5,7 +5,7 @@
   components:
   - type: FarGunshot
     sound: /Audio/_DZ/Effects/FarGunshots/supressed1.ogg
-    silencerDecrease: 0.2
+    silencerDecrease: 0.35 # EN, 0.2 -> 0.35
   - type: STWeight
     self: 3
   - type: Clothing

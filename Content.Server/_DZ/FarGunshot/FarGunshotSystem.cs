@@ -40,11 +40,11 @@ public sealed class FarGunshotSystem : EntitySystem
             .RemoveInRange(shootPos, 14f);
 
         var soundParams = component.Sound?.Params ?? AudioParams.Default;
-        soundParams.MaxDistance = component.Range;
+        soundParams.MaxDistance = range; // EN, changed to be dynamic
         soundParams.ReferenceDistance = 14f;
 
         var sound = component.Sound;
-        if (component.SilencerDecrease is null)
+        if (component.SilencerDecrease < 1) // EN, from null to less than 1
             sound = component.SoundSilencer;
 
         _audio.PlayEntity(

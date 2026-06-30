@@ -73,6 +73,8 @@
     falloffMultiplier: 0.8
   - type: STWeaponAccuracy
     accuracyMultiplier: 1.45
+  - type: FarGunshot # EN
+    range: 225
 
 - type: entity
   parent: STBaseWeaponRifleM4

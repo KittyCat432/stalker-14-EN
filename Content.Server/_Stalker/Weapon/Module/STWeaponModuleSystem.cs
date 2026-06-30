@@ -76,8 +76,8 @@ public sealed class STWeaponModuleSystem : STSharedWeaponModuleSystem
             && farGunshotComponent.Sound is not null)
         {
             farGunshotComponent.SilencerDecrease = MathHelper.CloseToPercent(effect.FarshotSoundDecrease, FarGunshotComponent.DefaultSilencerDecrease)
-                ? effect.FarshotSoundDecrease
-                : null;
+                ? null
+                : effect.FarshotSoundDecrease; // EN, swapped the two around so it actually stores values that aren't 1
 
             // Use WithVolume() to SET from base, not accumulate
             farGunshotComponent.Sound.Params = farGunshotComponent.Sound.Params
