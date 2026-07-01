@@ -92,3 +92,6 @@
 
 - type: Tag
   id: MagazineSR1
+
+- type: Tag
+  id: MagazineRPK

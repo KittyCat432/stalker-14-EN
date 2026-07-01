@@ -514,3 +514,46 @@
     sprite: _Stalker/Objects/Clothing/hats/seva_helmet_VANO.rsi
   - type: Clothing
     sprite: _Stalker/Objects/Clothing/hats/seva_helmet_VANO.rsi
+
+- type: entity
+  parent: STClothingOuterArmorSevaBase
+  id: ClothingOuterArmorSevaLastDay
+  name: костюм "Сева ПД-3Ф"
+  description: Научно-исследовательский костюм с замкнутой системой дыхания. Этот экземпляр выполнен в бурых цветах и поражен активной аномалией. Наплечный шеврон изрядно потертый, видно лишь какую-то черную разинутую пасть.
+  components:
+  - type: Sprite
+    sprite: _Stalker/Objects/Clothing/outerClothing/seva_last_day.rsi
+  - type: Clothing
+    sprite: _Stalker/Objects/Clothing/outerClothing/seva_last_day.rsi
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHardsuitSevaHelmLastDay
+    slot: head
+  - type: Armor
+    armorClass: 2
+    modifiers:
+      flatReductions:
+        Blunt: 3
+        Slash: 3
+        Piercing: 4
+        Heat: 4
+        Radiation: 4
+        Caustic: 4
+        Shock: 4
+        Compression: 10
+      coefficients:
+        Blunt: 0.75
+        Slash: 0.75
+        Piercing: 0.7
+        Heat: 0.4
+
+- type: entity
+  parent: STClothingHeadHardsuitSevaHelmBase
+  id: ClothingHeadHardsuitSevaHelmLastDay
+  name: шлем севы ПД-3Ф
+  description: Выглядит ужасно.
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    sprite: _Stalker/Objects/Clothing/hats/seva_helmet_last_day.rsi
+  - type: Clothing
+    sprite: _Stalker/Objects/Clothing/hats/seva_helmet_last_day.rsi

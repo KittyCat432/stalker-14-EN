@@ -60,3 +60,5 @@ ent-STClothingOuterArmorCN-4a = CN-4A Seva Suit
     .desc = An unofficial version of the SEVA scientific suit for Clear Sky research teams, supplied to the Zone by smugglers. Still retains the scent of the mainland.
 ent-STClothingOuterArmorCN-4aResearcher = CHN-4a Explorer
     .desc = An unofficial version of the SEVA scientific suit, extensively modified by Novikov, a Clear Sky technician. The suit is highly ergonomic, providing much-needed mobility when exploring anomalous fields. It is extremely popular among the group's veteran researchers.
+ent-ClothingOuterArmorSevaLastDay = Seva of the Last Day
+    .desc = Research suit with a closed breathing system. This specimen has brown colors and is affected by an active anomaly. The shoulder chevron is fairly worn, only some kind of black gaping mouth is visible.

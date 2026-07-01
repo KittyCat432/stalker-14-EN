@@ -8,3 +8,5 @@ ent-545Mag45 = 5.45x39 magazine (45)
     .desc = 5.45x39 magazine for AK. Bullet capacity 45. They sell empty.
 ent-545Mag60 = 5.45x39 magazine (60)
     .desc = 5.45x39 magazine for AK. Bullet capacity 60. They sell empty.
+ent-Base545MagRPK = 5.45x39 RPK magazine (60)
+    .desc = Specialized 5.45x39 magazine for the RPK. Bullet capacity 60. They sell empty.

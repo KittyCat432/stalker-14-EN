@@ -8,3 +8,6 @@ ent-STWeaponRifleLR300v1 = LR-300
     .desc = A lightweight rifle with an effective range up to 300m. Renowned for its smooth trigger, ergonomics, and light weight—but its high susceptibility to dirt makes it less ideal for harsh conditions.
 ent-STWeaponRifleLR300v2 = { ent-STWeaponRifleLR300v1 }
     .desc = A new evolution in the M-16 family. Shares the same strengths but is equally vulnerable in dirty environments. It uses 5.56mm ammo.
+ent-STWeaponRifleM4UN = Colt M4
+    .desc = Colt M4 based on the AR-15 is one of the most famous assault rifles, it uses 5.56mm ammo.
+    .suffix = ST, UN

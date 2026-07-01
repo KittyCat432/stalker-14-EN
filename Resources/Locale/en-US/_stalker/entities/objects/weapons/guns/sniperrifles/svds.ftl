@@ -13,3 +13,6 @@ ent-STWeaponRifleSVU = SVU
 ent-STWeaponRifleSVUSera = Seraphim SVUs
     .desc = { ent-STWeaponRifleSVU.desc }
     .suffix = { ent-STWeaponRifleSVDSGrass.suffix }
+ent-STBaseWeaponRifleSVDSLastDay = SVDS PD-3
+    .desc = A Dragunov rifle affected by a gravitational anomaly. It is not entirely clear what kind of weapon this is, made in chaotic faded colors with a black panther engraved on the fore-end. If you find this rifle, it means you will die soon, or you are incredibly lucky.
+    .suffix = ST, Weapon, Reward

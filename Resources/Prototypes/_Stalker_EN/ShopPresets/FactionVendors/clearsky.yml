@@ -460,6 +460,8 @@
       # faction
       ClothingBandageStalkerBlue: 10
       ClothingNeckScarfWhite: 100
+      #STClothingNeckFacescarfBlack: 100
+      #STClothingNeckFacescarfWhite: 100
       # TORSO
       ClothingTorsoTShirtPivozavr: 30
       ClothingTorsoTShirtSailorSuit: 30

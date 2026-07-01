@@ -377,6 +377,9 @@
         ClothingBandageStalkerPurple: 10
         ClothingNeckScarfSci: 100
         ClothingNeckScarfUkraine: 100
+        #STClothingNeckFacescarfWhite: 100
+        #STClothingNeckFacescarfPurple: 100
+        #STClothingNeckFacescarfGrey: 100
         # TORSO
         ClothingTorsoTShirtPivozavr: 30
         ClothingTorsoTShirtSailorSuit: 30

@@ -379,6 +379,8 @@
       # NECK
       ClothingNeckScarfBrown: 100
       ClothingNeckScarfGray: 100
+      #STClothingNeckFacescarfOrange: 100
+      #STClothingNeckFacescarfBlackSkull: 100
       # faction
       ClothingCapeRenegat: 100
       ClothingBandageStalkerYellow: 10
@@ -470,6 +472,8 @@
       # 5,45x39
       STWeaponRifleAKS74U: 3
       STWeaponRifleAKS74: 6
+      STWeaponRifleRPK74Vedma: 6
+      STWeaponRifleOC14Liturgia: 9
       # 5.56
       STWeaponRifleM16: 10
       # SMGS
@@ -482,6 +486,7 @@
     priority: 2
     items:
       739Mag30: 1
+      Base545MagRPK: 2
   - name: shop-category-ammunition
     priority: 3
     items:
@@ -509,5 +514,9 @@
     priority: 6
     items:
       # ARMOR
+      # outerClothing
       STClothingOuterArmorLightPlateVestBasePSZ7rene: 22
+      # head
+      ClothingHeadHelmetVityazSkull3: 36 # this is a vityaz, youre paying a drip tax
+      # misc
       ClothingNeckToothNecklace: 1

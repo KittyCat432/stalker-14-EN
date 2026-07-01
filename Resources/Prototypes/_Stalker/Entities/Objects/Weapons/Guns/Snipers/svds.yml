@@ -169,3 +169,67 @@
         gun_chamber: !type:ContainerSlot
     - type: STWeaponDamageFalloff
       falloffMultiplier: 1.2
+
+- type: entity
+  parent: STBaseWeaponSniper
+  id: STBaseWeaponRifleSVDSLastDay
+  name: СВДС ПД-3
+  suffix: ST, LastDay
+  description: Винтовка Драгунова, подверженная влиянию гравитационной аномалии. Не до конца понятно что это за оружие, выполненное в хаотических блеклых цветах с гравировкой чёрной пантеры на цевье. Если вы нашли эту винтовку - значит вы скоро умрёте, либо вы невероятный счастливчик.
+  components:
+  - type: STWeight
+    self: 1.8
+  - type: Clothing
+    sprite: _Stalker/Objects/Weapons/Guns/Snipers/SVDS/svds_last_day.rsi
+  - type: Item
+    sprite: _Stalker/Objects/Weapons/Guns/Snipers/SVDS/svds_last_day.rsi
+  - type: Sprite
+    sprite: _Stalker/Objects/Weapons/Guns/Snipers/SVDS/svds_last_day.rsi
+  - type: Gun
+    soundGunshot:
+      path: /Audio/_Stalker/Effects/Guns/svd.ogg
+    minAngle: 50
+    maxAngle: 120
+    angleDecay: 60
+    angleIncrease: 2
+    fireRate: 1.4
+  - type: STWeaponAccuracy
+    accuracyMultiplier: 7
+  - type: ChamberMagazineAmmoProvider
+    soundRack:
+      path: /Audio/_Stalker/Weapons/Guns/RifleGen/Cock/rifle_cock.ogg
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: 754Mag10
+        insertSound: /Audio/_Stalker/Weapons/Guns/RifleGen/MagIn/rifle_magin.ogg
+        ejectSound: /Audio/_Stalker/Weapons/Guns/RifleGen/MagOut/rifle_magout.ogg
+        priority: 4
+        whitelist:
+          tags:
+          - Magazine754
+      gun_module_scope:
+        name: Scope
+        priority: 3
+        whitelist:
+          tags:
+          - STWeaponModuleSniperSight
+      gun_module_muzzle:
+        name: Muzzle
+        priority: 2
+        whitelist:
+          tags:
+          - STWeaponModuleSniperSilencer
+      gun_chamber:
+        name: Chamber
+        priority: 1
+        whitelist:
+          tags:
+          - STCartridge754
+  - type: ContainerContainer
+    containers:
+      gun_magazine: !type:ContainerSlot
+      gun_module_muzzle: !type:ContainerSlot
+      gun_module_scope: !type:ContainerSlot
+      gun_chamber: !type:ContainerSlot

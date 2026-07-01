@@ -302,6 +302,7 @@
         # faction
         ClothingBandageStalkerRed: 10
         ClothingNeckScarfDuty: 100
+        #STClothingNeckFacescarfRed: 100
         ClothingNeckDutyGeneralEpaulette: 1000
         # TORSO
         ClothingTorsoTShirtPivozavr: 30
