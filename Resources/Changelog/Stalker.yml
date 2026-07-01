@@ -3501,5 +3501,12 @@
   id: 395
   time: '2026-07-01T16:28:36.458699+00:00'
   url: https://github.com/stalker-14-EN/stalker-14-EN/pull/1017
+- author: Llfiend
+  changes:
+  - message: Silencers now silence UP CLOSE TOO!!!!
+    type: Tweak
+  id: 396
+  time: '2026-07-01T21:04:36.632244+00:00'
+  url: https://github.com/stalker-14-EN/stalker-14-EN/pull/1021
 Name: Stalker
 Order: -1
