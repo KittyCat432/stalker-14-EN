@@ -3494,5 +3494,12 @@
   id: 394
   time: '2026-07-01T16:26:43.774933+00:00'
   url: https://github.com/stalker-14-EN/stalker-14-EN/pull/1018
+- author: Mooringt
+  changes:
+  - message: OC-14-A1 7,62x39mm
+    type: Add
+  id: 395
+  time: '2026-07-01T16:28:36.458699+00:00'
+  url: https://github.com/stalker-14-EN/stalker-14-EN/pull/1017
 Name: Stalker
 Order: -1
