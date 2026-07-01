@@ -22,7 +22,7 @@
     - STWeaponModuleSMGSilencer
   - type: STWeaponModule
     effect:
-      # soundGunshotVolumeAddition: -8
+      soundGunshotVolumeAddition: -8
       farshotSoundDecrease: 0.8 # EN, 0.4 -> 0.8
   - type: Sprite
     state: smg_silencer_T1
@@ -40,7 +40,7 @@
     - STWeaponModuleSMGSilencer
   - type: STWeaponModule
     effect:
-      # soundGunshotVolumeAddition: -13
+      soundGunshotVolumeAddition: -13
       farshotSoundDecrease: 0.6 # EN, 0.2 -> 0.6
   - type: Sprite
     state: smg_silencer_T2
