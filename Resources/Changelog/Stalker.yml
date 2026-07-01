@@ -3487,5 +3487,12 @@
   id: 393
   time: '2026-07-01T16:15:41.356947+00:00'
   url: https://github.com/stalker-14-EN/stalker-14-EN/pull/1016
+- author: crocodilecarousel
+  changes:
+  - message: Adds new scarves to shops
+    type: Add
+  id: 394
+  time: '2026-07-01T16:26:43.774933+00:00'
+  url: https://github.com/stalker-14-EN/stalker-14-EN/pull/1018
 Name: Stalker
 Order: -1
