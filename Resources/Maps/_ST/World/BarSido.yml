@@ -5957,18 +5957,6 @@ entities:
 
 
         P.S. Bartender
-    - type: Tag
-      tags: []
-    - type: ItemSlots
-    - type: ContainerContainer
-      containers:
-        paper_label: !type:ContainerSlot {}
-    - type: PaperLabel
-      labelSlot:
-        insertSound: !type:SoundPathSpecifier
-          path: /Audio/Weapons/Guns/MagIn/revolver_magin.ogg
-        ejectSound: !type:SoundPathSpecifier
-          path: /Audio/Weapons/Guns/MagOut/revolver_magout.ogg
     missingComponents:
     - Item
     - Pullable
