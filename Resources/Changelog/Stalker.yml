@@ -3534,5 +3534,14 @@
   id: 398
   time: '2026-07-03T19:05:31.253485+00:00'
   url: https://github.com/stalker-14-EN/stalker-14-EN/pull/1023
+- author: TheOverwatchVoice
+  changes:
+  - message: Garbage and Cordon checkpoints
+    type: Tweak
+  - message: Fixed some teleports of Agro, Mbase and Garbage
+    type: Fix
+  id: 399
+  time: '2026-07-03T20:39:00.275831+00:00'
+  url: https://github.com/stalker-14-EN/stalker-14-EN/pull/1024
 Name: Stalker
 Order: -1
