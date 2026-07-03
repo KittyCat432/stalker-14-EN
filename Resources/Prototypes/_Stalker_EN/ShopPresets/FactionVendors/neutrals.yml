@@ -155,37 +155,37 @@
     priority: 3
     items:
       7mmBuckshotBox: 30 # T0
-      6mmBuckshotBox: 275 # T2
+      6mmBuckshotBox: 175 # T2
       # 5.45
-      545FMJBox: 700 # T2
-      545HPBox: 425 # Mutant
-      545PCBox: 1650 # T3
+      545FMJBox: 425 # T2
+      545HPBox: 400 # Mutant
+      545PCBox: 1250 # T3
       # 7.39
-      739HPBox: 700 # Mutant
-      739FMJBox: 1950 # T3
+      739HPBox: 450 # Mutant
+      739FMJBox: 1250 # T3
       # 7.54
-      754HPBox: 775 # Mutant
-      754FMJBox: 2500 # T3
+      754HPBox: 600 # Mutant
+      754FMJBox: 1650 # T3
       # 9.18
-      918PGJBox: 65 # T1
-      918SP7Box: 595 # Mutant
-      918PSTBox: 450 # T2
-      918PBMBox: 1450 # T3
+      918PGJBox: 85 # T1
+      918PSTBox: 175 # T2
+      918SP7Box: 425 # Mutant
+      918PBMBox: 1000 # T3
       # 9.19
-      919PSOGJBox: 65 # T1
-      919RIPBox: 595 # Mutant
-      919PBMBox: 1450 # T3
-      919PSTBox: 450 # T2
+      919PSOGJBox: 85 # T1
+      919PSTBox: 175 # T2
+      919RIPBox: 425 # Mutant
+      919PBMBox: 1000 # T3
       # 7.25
       725PBox: 75 # T1
-      725LRNPCBox: 595 # Mutant
-      725PTBox: 465 # T2
-      725PSTBox: 1450 # T3
+      725LRNPCBox: 425 # Mutant
+      725PTBox: 150 # T2
+      725PSTBox: 1150 # T3
       #45
-      45ACPRIPBox: 625 # Mutant
-      45ACPLFMJBox: 100 # T1
-      45ACPMFMJBox: 1550 # T2
-      45ACPAPBox: 1950 # T3
+      45ACPLFMJBox: 75 # T1
+      45ACPRIPBox: 475 # Mutant
+      45ACPMFMJBox: 250 # T2
+      45ACPAPBox: 1150 # T3
 
   - name: shop-category-medicine
     priority: 4
@@ -238,7 +238,7 @@
       STSkinsKitNeutral: 500
       STClothingOuterArmorSevaNeutral: 4500
       ClothingOuterArmorAborigineNeutral: 8000 # T3 - PVE// 20% off price
-      STClothingOuterArmorLepestokNeutralEN: 14000
+      STClothingOuterArmorNeutralBadger: 12000 # T3 - PVE
 
 
   - name: shop-category-storage-and-containers
@@ -261,6 +261,7 @@
       ClothingBeltTarzanGreen: 200 # T1 - PVP
       ClothingBeltTarzanOrange: 200 # T1 - PVP
       ClothingBeltWebbingHolsterLoner: 500 # t3? idk man
+      STClothingCapeTacticalRigBrown: 600
       # Containers
       MedkitCMSStalker: 250 # T1
       MedkitGrizzlyStalker: 850 # T2

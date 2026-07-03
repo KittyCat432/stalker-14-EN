@@ -1276,3 +1276,75 @@
       orGroup: GiftPool
     sound:
       path: /Audio/Effects/unwrap.ogg
+
+- type: entity
+  parent: BaseItem
+  id: STWarzoneMedicalCrateBasic
+  name: Basic Medical Shipment
+  description: A shipment of basic medical supplies; 5 army medkits, 5 scientific medkits, 2 bloodpacks.
+  suffix: Stalker
+  components:
+  - type: STWeight
+    self: 20
+  - type: Item
+    size: Ginormous
+  - type: MultiHandedItem
+  - type: Sprite
+    sprite: _Stalker/Structures/Furniture/olive_bag.rsi
+    state: icon
+  - type: SpawnItemsOnUse
+    items:
+    - id: MedkitMilitary
+    - id: MedkitMilitary
+    - id: MedkitMilitary
+    - id: MedkitMilitary
+    - id: MedkitMilitary
+    - id: MedkitScience
+    - id: MedkitScience
+    - id: MedkitScience
+    - id: MedkitScience
+    - id: MedkitScience
+    - id: Bloodpack
+    - id: Bloodpack
+    sound:
+      path: /Audio/Effects/unwrap.ogg
+
+- type: entity
+  parent: BaseItem
+  id: STWarzoneMedicalCrateCombat
+  name: Combat Medical Shipment
+  description: A shipment of medical supplies for use in active combat zones; 8 army medkits, 4 elite medkits, 4 probudophiline syringes, and 4 tourniquets.
+  suffix: Stalker
+  components:
+  - type: STWeight
+    self: 25
+  - type: Item
+    size: Ginormous
+  - type: MultiHandedItem
+  - type: Sprite
+    sprite: _Stalker/Structures/Furniture/olive_bag.rsi
+    state: icon
+  - type: SpawnItemsOnUse
+    items:
+    - id: MedkitMilitary
+    - id: MedkitMilitary
+    - id: MedkitMilitary
+    - id: MedkitMilitary
+    - id: MedkitMilitary
+    - id: MedkitMilitary
+    - id: MedkitMilitary
+    - id: MedkitMilitary
+    - id: MedkitElite
+    - id: MedkitElite
+    - id: MedkitElite
+    - id: MedkitElite
+    - id: WakeUpMedipen
+    - id: WakeUpMedipen
+    - id: WakeUpMedipen
+    - id: WakeUpMedipen
+    - id: STTourniquet
+    - id: STTourniquet
+    - id: STTourniquet
+    - id: STTourniquet
+    sound:
+      path: /Audio/Effects/unwrap.ogg

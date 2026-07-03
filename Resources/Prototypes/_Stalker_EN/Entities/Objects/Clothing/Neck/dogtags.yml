@@ -48,7 +48,7 @@
     proto: bandit
   - type: Currency
     price:
-      PremiumSupplyTalons: 2
+      PremiumSupplyTalons: 4
 
 - type: entity
   parent: ClothingNeckDogtagBaseEN
@@ -168,7 +168,7 @@
     proto: freedom
   - type: Currency
     price:
-      PremiumSupplyTalons: 1
+      PremiumSupplyTalons: 2
 
 - type: entity
   parent: ClothingNeckDogtagBaseEN
@@ -213,7 +213,7 @@
     proto: mercenary
   - type: Currency
     price:
-      PremiumSupplyTalons: 2
+      PremiumSupplyTalons: 4
 
 - type: entity
   parent: ClothingNeckDogtagBaseEN
@@ -303,7 +303,7 @@
     proto: renegade
   - type: Currency
     price:
-      PremiumSupplyTalons: 2
+      PremiumSupplyTalons: 4
 
 - type: entity
   parent: ClothingNeckDogtagBaseEN

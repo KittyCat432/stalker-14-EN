@@ -151,30 +151,30 @@
       items:
         #7mm
         7mmBuckshotBox: 45 # T0
-        6mmBuckshotBox: 255 # T1
+        6mmBuckshotBox: 150 # T1
         # 5.45
-        545FMJBox: 700 # T2
-        545HPBox: 485 # Mutant
+        545FMJBox: 425 # T2
+        545HPBox: 400 # Mutant
         # 7.39
-        739HPBox: 700 # Mutant
+        739HPBox: 450 # Mutant
         # 7.54
-        754HPBox: 800 # Mutant
+        754HPBox: 600 # Mutant
         # 9.18
-        918PGJBox: 100 # T1
-        918PSTBox: 300 # T2
-        918SP7Box: 595 # Mutant
+        918PGJBox: 80 # T1
+        918PSTBox: 150 # T2
+        918SP7Box: 425 # Mutant
         # 9.19
-        919PSOGJBox: 100 # T1
-        919PSTBox: 300 # T2
-        919RIPBox: 595 # Mutant
+        919PSOGJBox: 80 # T1
+        919PSTBox: 150 # T2
+        919RIPBox: 425 # Mutant
         # 7.25
-        725PBox: 100 # T1
-        725LRNPCBox: 595 # Mutant
-        725PTBox: 300 # T2
+        725PBox: 75 # T1
+        725LRNPCBox: 450 # Mutant
+        725PTBox: 150 # T2
         # .45
-        45ACPLFMJBox: 100 # T1
-        45ACPRIPBox: 625 # Mutant
-        45ACPMFMJBox: 300 # T2
+        45ACPLFMJBox: 75 # T1
+        45ACPRIPBox: 500 # Mutant
+        45ACPMFMJBox: 225 # T2
     - name: shop-category-medicine
       priority: 4
       items:
@@ -263,23 +263,40 @@
     ZoneArtifactGoldfish: 125
     ZoneArtifactSpring: 65
     ZoneArtifactStuntman: 65
+    ZoneArtifactDarkCube: 0
     # ---THERMAL---
     #T3
     ZoneArtifactFlame: 10
+    ZoneArtifactRock: 10
+    ZoneArtifactBunch: 5
     #T4
     ZoneArtifactCristall: 20
+    ZoneArtifactRoot: 20
+    ZoneArtifactSun: 20
     #T5
     ZoneArtifactLithosphere: 60
     # ---ELECTRICAL---
     #T3
     ArtMoon: 20
     ZoneArtifactFlash: 15
+    ZoneArtifactAccumulator: 10
+    #T4
+    ZoneArtifactDiamond: 20
     #T5
     ZoneArtifactIce: 60
     ZoneArtifactTesla: 60
     # ---SPATIAL---
+    #T1
+    ZoneArtifactFloodlight: 1
+    #T3
+    ZoneArtifactArf: 10
+    ZoneArtifactThorn: 15
+    #T4
+    ZoneArtifactAtom: 20
+    ZoneArtifactCompass: 30
     #T5
     ZoneArtifactSoul: 60
+    ZoneArtifactCrucifix: 60
     # ---ACIDIC---
     #T3
     ZoneArtifactMeat: 10
@@ -429,23 +446,40 @@
     ZoneArtifactGoldfish: 175
     ZoneArtifactSpring: 100
     ZoneArtifactStuntman: 100
+    ZoneArtifactDarkCube: 0 # its too scary
     # ---THERMAL---
     #T3
     ZoneArtifactFlame: 15
+    ZoneArtifactRock: 15
+    ZoneArtifactBunch: 10
     #T4
     ZoneArtifactCristall: 30
+    ZoneArtifactRoot: 30
+    ZoneArtifactSun: 30
     #T5
     ZoneArtifactLithosphere: 110
     # ---ELECTRICAL---
     #T3
     ArtMoon: 20
     ZoneArtifactFlash: 20
+    ZoneArtifactAccumulator: 15
+    #T4
+    ZoneArtifactDiamond: 35
     #T5
     ZoneArtifactIce: 80
     ZoneArtifactTesla: 80
     # ---SPATIAL---
+    #T1
+    ZoneArtifactFloodlight: 1
+    #T3
+    ZoneArtifactArf: 15
+    ZoneArtifactThorn: 20
+    #T4
+    ZoneArtifactAtom: 35
+    ZoneArtifactCompass: 45 # more valuable to forester specifically
     #T5
     ZoneArtifactSoul: 80
+    ZoneArtifactCrucifix: 80
     # ---ACIDIC---
     #T3
     ZoneArtifactMeat: 20

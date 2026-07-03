@@ -20,6 +20,7 @@
       KhattabkaGrenade: 2
       IpritGrenadeStalker: 3
       DynamiteOne: 3
+      DynamiteTwo: 5
       DynamiteThree: 10
 #  - name: shop-category-armor
 #    priority: 4

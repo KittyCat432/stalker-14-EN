@@ -52,6 +52,7 @@
         STWeaponRifleAKM: 6000
         STWeaponRifleStalkerAK12Dolg: 6000
         STWeaponRifleA545Dolg: 7500
+        STBaseWeaponRifleOC14-A1: 8000
         # SMGs
         STWeaponSMGPP91: 1200
         STWeaponSMGStalkerCP2Veresk: 2000
@@ -85,30 +86,30 @@
       items:
         6mmBuckshotBox: 225 # T1
         7mmBuckshotBox: 50 # T0
-        8mmBuckshotBox: 750 # T2
+        8mmBuckshotBox: 600 # T2
         # 7.25
         725PBox: 90 # T1
         725LRNPCBox: 500 # Mutant
         # 9.19
         919PSOGJBox: 100 # T1
         919PSTBox: 450 # T2
-        919PBMBox: 1450 # T3
+        919PBMBox: 1000 # T3
         919RIPBox: 500 # Mutant
         # 9.18
         918PGJBox: 100 # T1
         918PSTBox: 450 # T2
-        918PBMBox: 1450 # T3
+        918PBMBox: 1000 # T3
         918SP7Box: 500 # Mutant
         # 5.45
         545FMJBox: 500 # T2
         545HPBox: 625 # Mutant
-        545PCBox: 1650 # T3
+        545PCBox: 1150 # T3
         # 7.39
-        739FMJBox: 1950 # T3
+        739FMJBox: 1350 # T3
         739HPBox: 750 # Mutant
 
         # 7.54
-        754FMJBox: 2500 # T3
+        754FMJBox: 1950 # T3
         754HPBox: 1250 # Mutant
         # Other
 
@@ -180,6 +181,8 @@
           # Belts
         ClothingBeltBandolierStalker: 20 # T1 - PVE
         ClothingBeltWebbingHolsterDolgPS5M: 700 # t3 belt
+        STClothingCapeTacticalRigBlack: 800
+        STClothingCapeTacticalRigRed: 800
 
     - name: shop-category-raincoats-and-gasmasks
       priority: 8
