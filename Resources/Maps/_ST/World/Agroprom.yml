@@ -4,8 +4,8 @@ meta:
   engineVersion: 268.0.0
   forkId: ""
   forkVersion: ""
-  time: 06/27/2026 10:43:06
-  entityCount: 16361
+  time: 07/03/2026 19:08:00
+  entityCount: 16355
 maps:
 - 1
 grids:
@@ -35378,11 +35378,6 @@ entities:
       parent: 1
 - proto: Bolota-Agro1
   entities:
-  - uid: 2
-    components:
-    - type: Transform
-      pos: 1.5,-35.5
-      parent: 1
   - uid: 4
     components:
     - type: Transform
@@ -72486,7 +72481,7 @@ entities:
       pos: -175.5,-71.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -1172.4985
+      secondsUntilStateChange: -1288.724
       state: Opening
   - uid: 2249
     components:
@@ -109351,6 +109346,13 @@ entities:
       rot: -1.5707963267948966 rad
       pos: -171.5,-89.5
       parent: 1
+- proto: Svalka-Agro1
+  entities:
+  - uid: 2
+    components:
+    - type: Transform
+      pos: 1.5,-35.5
+      parent: 1
 - proto: TargetHuman
   entities:
   - uid: 14541
@@ -119830,44 +119832,6 @@ entities:
     components:
     - type: Transform
       pos: -19.744896,-89.38089
-      parent: 1
-- proto: WindowReinforcedDirectional
-  entities:
-  - uid: 10766
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: -207.5,-151.5
-      parent: 1
-  - uid: 10767
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: -207.5,-151.5
-      parent: 1
-  - uid: 10768
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: -206.5,-152.5
-      parent: 1
-  - uid: 10769
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: -206.5,-152.5
-      parent: 1
-  - uid: 10770
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: -205.5,-153.5
-      parent: 1
-  - uid: 10771
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: -205.5,-153.5
       parent: 1
 - proto: WoodDoorFallout
   entities:
