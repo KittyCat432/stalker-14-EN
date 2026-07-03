@@ -158,44 +158,49 @@
     items:
       #20gauge
       62mmBuckshotBox: 30 #T0
-      75mmBuckshotBox: 250 #T1
+      75mmBuckshotBox: 150 #T1
       # 7mm
-      6mmBuckshotBox: 320 # T1
-      7mmBuckshotBox: 75 # T0
+      7mmBuckshotBox: 50 # T0
+      6mmBuckshotBox: 200 # T1
+      8mmBuckshotBox: 450 # T2
       # 7.25
-      725PBox: 90 # T1
+      725PBox: 100 # T1
+      725LRNPCBox: 625 # Mutant
       725PTBox: 200 # T2
-      725PSTBox: 1450 # T3
+      725PSTBox: 800 # T3
       # 9.19
       919PSOGJBox: 100 # T1
-      919PSTBox: 300 # T2
-      919PBMBox: 1450 # T3
+      919PSTBox: 200 # T2
+      919RIPBox: 625 # Mutant
+      919PBMBox: 800 # T3
       # 9.18
       918PGJBox: 100 # T1
-      918PSTBox: 300 # T2
-      918PBMBox: 1450 # T3
+      918PSTBox: 200 # T2
+      918SP7Box: 625 # Mutant
+      918PBMBox: 800 # T3
       # 5.45
       545FMJBox: 500 # T2
-      545HPBox: 725 # Mutant
-      545PCBox: 1650 # T3
+      545HPBox: 500 # Mutant
+      545PCBox: 925 # T3
       # 5.56
-      # 5.56
-      556FMJBox: 550 # T2
-      556M855Box: 1350 # T3
-      556WarmagBox: 600 # Mutant
+      556FMJBox: 500 # T2
+      556WarmagBox: 500 # Mutant
+      556M855Box: 925 # T3
       # 7.39
-      739FMJBox: 1950 # T3
+      739HPBox: 850 # Mutant
+      739FMJBox: 1000 # T3
       # 7.54
-      754FMJBox: 2500 # T3
-      754HPBox: 1350 # Mutant
+      754FMJBox: 1150 # T3
+      754HPBox: 850 # Mutant
       # .45
-      45ACPLFMJBox: 110 # T1
-      45ACPMFMJBox: 350 # T2
-      45ACPAPBox: 1500 # T3
+      45ACPLFMJBox: 100 # T1
+      45ACPMFMJBox: 300 # T2
+      45ACPRIPBox: 625 # Mutant
+      45ACPAPBox: 800 # T3
       # .357
-      MagazineBox357Magnum: 500 # T2
-      MagazineBox357MagnumAP: 1600 # T3
-      MagazineBox357MagnumHP: 600 # Mutant
+      MagazineBox357Magnum: 400 # T2
+      MagazineBox357MagnumAP: 800 # T3
+      MagazineBox357MagnumHP: 625 # Mutant
 
   - name: shop-category-medicine
     priority: 4
@@ -261,6 +266,8 @@
       ClothingBeltBandolierStalker: 20 # T1 - PVE
       ClothingBeltTarzanOrange: 200 # T1 - PVP
       ClothingBeltWebbingHolsterStalkerZarya: 500
+      STClothingCapeTacticalRigBrown: 800
+      STClothingCapeTacticalRigBlack: 800
       # Containers
       MedkitCMSStalker: 400 # T1
       MedkitGrizzlyStalker: 1000 # T2
@@ -491,21 +498,21 @@
     priority: 3
     items:
       # 7.25
-      725PSTBox: 3 # T3
+      725PSTBox: 2 # T3
       # 9.19
-      919PBMBox: 3 # T3
+      919PBMBox: 2 # T3
       # 9.18
-      918PBMBox: 3 # T3
+      918PBMBox: 2 # T3
       # 5.45
-      545PCBox: 3 # T3
+      545PCBox: 2 # T3
       # 5.56
-      556M855Box: 3 # T3
+      556M855Box: 2 # T3
       # 7.39
-      739FMJBox: 4 # T3
+      739FMJBox: 2 # T3
       # 7.54
-      754FMJBox: 4 # T3
+      754FMJBox: 2 # T3
       # .45
-      45ACPAPBox: 4 # T3
+      45ACPAPBox: 2 # T3
   - name: shop-category-medicine
     priority: 4
     items:

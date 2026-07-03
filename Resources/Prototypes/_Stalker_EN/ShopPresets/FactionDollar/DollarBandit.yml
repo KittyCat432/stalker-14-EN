@@ -21,6 +21,8 @@
     items:
       KhattabkaGrenade: 2
       IpritGrenadeStalker: 3
+      StielhandgranateM24: 3
+      StielhandgranateM24Bundle: 5
   - name: shop-category-armor
     priority: 4
     items:
@@ -35,6 +37,7 @@
     priority: 7
     items:
       ZoneAnomalyDetectorAD3: 30
+      TrashDetectorTier4: 100
   - name: shop-category-medicine
     priority: 10
     items:

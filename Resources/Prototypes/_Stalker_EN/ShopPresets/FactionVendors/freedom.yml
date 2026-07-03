@@ -129,32 +129,33 @@
       priority: 3
       items:
         # 7mm
-        6mmBuckshotBox: 320 # T1
-        7mmBuckshotBox: 45 # T0
-        8mmBuckshotBox: 800 # T2
+        6mmBuckshotBox: 225 # T1
+        7mmBuckshotBox: 50 # T0
+        8mmBuckshotBox: 600 # T2
         # 9.19
         919PSOGJBox: 100 # T1
-        919PSTBox: 500 # T2
-        919PBMBox: 1425 # T3
-        919RIPBox: 450 # Mutant
+        919PSTBox: 450 # T2
+        919PBMBox: 1000 # T3
+        919RIPBox: 500 # Mutant
         # 9.18
         918PGJBox: 100 # T1
-        918PSTBox: 500 # T2
-        918PBMBox: 1425 # T3
-        918SP7Box: 450 # Mutant
+        918PSTBox: 450 # T2
+        918PBMBox: 1000 # T3
+        918SP7Box: 500 # Mutant
         # 5.56
         556FMJBox: 500 # T2
-        556WarmagBox: 550 # Mutant
-        556M855Box: 1650 # T3
+        556WarmagBox: 450 # Mutant
+        556M855Box: 1150 # T3
         # 7.51
-        751M80Box: 1950 # T3
-        751UNBox: 850 # Mutant
+        751M80Box: 1250 # T3
+        751UNBox: 650 # Mutant
         # 7.54
-        754FMJBox: 2500 # T3
+        754FMJBox: 1950 # T3
+        754HPBox: 1250 # Mutant
         # .45
-        45ACPLFMJBox: 110 # T1
-        45ACPMFMJBox: 550 # T2
-        45ACPAPBox: 1500 # T3
+        45ACPLFMJBox: 90 # T1
+        45ACPMFMJBox: 450 # T2
+        45ACPAPBox: 1000 # T3
         45ACPRIPBox: 500 # Mutant
 
     - name: shop-category-medicine
@@ -226,6 +227,8 @@
           # Belts
         ClothingBeltBandolierStalker: 20 # T1 - PVE
         ClothingBeltWebbingHolsterFreedomDefender: 600
+        STClothingCapeTacticalRigBrown: 800
+        STClothingCapeTacticalRigGreen: 800
 
     - name: shop-category-raincoats-and-gasmasks
       priority: 8
@@ -241,11 +244,11 @@
         ClothingOuterCoatDoshdevik: 100 # T1
         ClothingOuterCoatStalker: 1000
         ClothingOuterCoatLoyalistLight: 2500
-        ClothingOuterCoatLoyalist: 3000
-        ClothingOuterCoatFreedomPoncho: 3000
-        ClothingOuterCoatFreedomPonchoShort: 3000
-        ClothingOuterCoatFreedomCloak: 3000
-        STClothingCapeFreedomChain: 2500 # T4
+        ClothingOuterCoatLoyalist: 2500
+        ClothingOuterCoatFreedomPoncho: 2500
+        ClothingOuterCoatFreedomPonchoShort: 2500
+        ClothingOuterCoatFreedomCloak: 2500
+        STClothingCapeFreedomChain: 3000 # T4
           # Gasmasks
         ClothingMaskGasFreedom: 500 # T1
         ClothingMaskGasZaryaMono: 500 # T1

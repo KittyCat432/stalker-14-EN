@@ -18,10 +18,11 @@
     priority: 3
     items:
       KhattabkaGrenade: 2
-#  - name: shop-category-armor
-#    priority: 4
-#    items:
-#      #Special
+  - name: shop-category-armor
+    priority: 4
+    items:
+      # Armor
+      ClothingOuterArmorCN3b: 450
   - name: shop-category-storage-and-containers
     priority: 5
     items:

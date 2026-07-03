@@ -134,7 +134,6 @@
         # 9.19
         P99Mag15: 120
         BaseMP5Mag: 260
-        BaseTEC9Mag: 120
         GlockMag17: 150
         GlockMag33: 600
         # 7.51
@@ -153,28 +152,30 @@
       priority: 3
       items:
         # 7mm
-        8mmBuckshotBox: 750 # T2
-        6mmBuckshotBox: 250 # T1
         7mmBuckshotBox: 45 # T0
+        6mmBuckshotBox: 175 # T1
+        8mmBuckshotBox: 450 # T2
         # 9.19
-        919PSOGJBox: 100 # T1
-        919PSTBox: 200 # T2
-        919PBMBox: 1225 # T3
+        919PSOGJBox: 85 # T1
+        919PSTBox: 175 # T2
+        919RIPBox: 425 # Mutant
+        919PBMBox: 800 # T3
         # .357
-        MagazineBox357MagnumHP: 550 # Mutant
-        MagazineBox357Magnum: 500 # T2
-        MagazineBox357MagnumAP: 1250 # T3
+        MagazineBox357Magnum: 400 # T2
+        MagazineBox357MagnumAP: 800 # T3
+        MagazineBox357MagnumHP: 625 # Mutant
         # .45
-        45ACPLFMJBox: 90 # T1
-        45ACPMFMJBox: 220 # T2
-        45ACPAPBox: 1250 # T3
+        45ACPLFMJBox: 100 # T1
+        45ACPMFMJBox: 300 # T2
+        45ACPRIPBox: 625 # Mutant
+        45ACPAPBox: 800 # T3
         # 5.56
-        556FMJBox: 300
-        556M855Box: 1450 # T3
-        556WarmagBox: 485 # Mutant
+        556FMJBox: 500 # T2
+        556WarmagBox: 500 # Mutant
+        556M855Box: 925 # T3
         # 7.51
-        751M80Box: 1950 # T3
-        751UNBox: 850 # Mutant
+        751M80Box: 1250 # T3
+        751UNBox: 650 # Mutant
 
     - name: shop-category-medicine
       priority: 4
@@ -240,6 +241,7 @@
         ClothingBeltTarzanBlack: 200
         ClothingBeltWebbingHolsterMerc: 1000
         ClothingBeltWebbingHolsterMerc2: 1000
+        STClothingCapeTacticalRigBlue: 800
         # Medical Storage
         MedkitCMSStalker: 450
         MedkitGrizzlyStalker: 850

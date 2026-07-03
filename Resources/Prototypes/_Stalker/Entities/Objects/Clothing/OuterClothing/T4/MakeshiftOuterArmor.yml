@@ -95,3 +95,5 @@
       - 8,-2,8,0
       - 10,2,11,3
       - -2,2,-2,3
+  - type: GrantsArtifactSlots
+    slots: 4 # EN

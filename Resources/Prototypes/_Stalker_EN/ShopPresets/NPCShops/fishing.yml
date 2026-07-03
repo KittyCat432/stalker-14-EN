@@ -43,18 +43,23 @@
         CheapLighter: 10
         FishingRod: 300
         FishingRodGolden: 4500
-    - name: shop-category-entertainment
+    - name: Gear
       priority: 1
+      items:
+        STClothingCapeTacticalRigGreen: 500
+        ClothingHeadHatStrawHat: 200
+    - name: shop-category-entertainment
+      priority: 2
       items:
         AcousticGuitarInstrument: 500
         Blunt: 500
     - name: Provisions
-      priority: 2
+      priority: 3
       items:
         STDrinkBeerCanBaltic: 50
         DrinkBeerBottleFull: 150
     - name: Cooking
-      priority: 3
+      priority: 4
       items:
         STCookingFriedFish: 2000
         STCookingFrogLegs: 2000

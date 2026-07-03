@@ -206,50 +206,50 @@
   - name: shop-category-ammunition
     priority: 3
     items:
-      8mmBuckshotBox: 800 # T2
-      6mmBuckshotBox: 275 # T1
-      7mmBuckshotBox: 50  # T0
+      7mmBuckshotBox: 50 # T0
+      6mmBuckshotBox: 200 # T1
+      8mmBuckshotBox: 450 # T2
       # 7.25
-      725LRNPCBox: 625 # Mutant
       725PBox: 100 # T1
-      725PTBox: 250 # T2
-      725PSTBox: 1450 # T3
+      725PTBox: 200 # T2
+      725LRNPCBox: 500 # Mutant
+      725PSTBox: 950 # T3
+      # 9.18
+      919PSOGJBox: 100 # T1
+      919PSTBox: 200 # T2
+      919RIPBox: 500 # Mutant
+      919PBMBox: 950 # T3
       # 9.18
       918PGJBox: 100 # T1
-      918PSTBox: 300 # T2
-      918SP7Box: 625 # Mutant
-      918PBMBox: 1425 # T3
-      # 9.19
-      919RIPBox: 625 # Mutant
-      919PSOGJBox: 100 # T1
-      919PSTBox: 300 # T2
-      919PBMBox: 1450 # T3
+      918PSTBox: 200 # T2
+      918SP7Box: 500 # Mutant
+      918PBMBox: 950 # T3
       # .45
       45ACPLFMJBox: 100 # T1
       45ACPMFMJBox: 300 # T2
-      45ACPRIPBox: 625 # Mutant
-      45ACPAPBox: 1450 # T3
+      45ACPRIPBox: 550 # Mutant
+      45ACPAPBox: 950 # T3
       # 5.45
-      545HPBox: 500 # Mutant
-      545PCBox: 1650 # T3
-      545FMJBox: 650 # T2
+      545FMJBox: 500 # T2
+      545HPBox: 425 # Mutant
+      545PCBox: 1150 # T3
       # 5.56
-      556WarmagBox: 500 # Mutant
-      556FMJBox: 650 # T2
-      556M855Box: 1650 # T3
+      556FMJBox: 500 # T2
+      556M855Box: 1150 # T3
+      556WarmagBox: 425 # Mutant
       # 7.39
-      739HPBox: 850 # Mutant
-      739FMJBox: 1950 # T3
+      739FMJBox: 1250 # T3
+      739HPBox: 500 # Mutant
       # 7.51
-      751UNBox: 850 # Mutant
-      751M80Box: 1950 # T3
+      751UNBox: 500 # Mutant
+      751M80Box: 1250 # T3
       # 7.54
-      754HPBox: 850 # Mutant
-      754FMJBox: 2500 # T3
+      754HPBox: 650 # Mutant
+      754FMJBox: 1850 # T3
       # .357
-      MagazineBox357Magnum: 600 # T2
-      MagazineBox357MagnumAP: 1500 # T3
-      MagazineBox357MagnumHP: 625 # Mutant
+      MagazineBox357Magnum: 400 # T2
+      MagazineBox357MagnumAP: 1000 # T3
+      MagazineBox357MagnumHP: 500 # Mutant
 
   - name: shop-category-medicine
     priority: 4
@@ -324,6 +324,8 @@
       ClothingBeltBandolierStalker: 20 # T1 - PVE
       STClothingBeltThrowingKnifes: 350
       ClothingBeltWebbingHolsterStalkerZarya: 500
+      STClothingCapeTacticalRigBlack: 800
+      STClothingCapeTacticalRigBrown: 800
       # Containers
       MedkitCMSStalker: 450 # T1
       MedkitGrizzlyStalker: 850 # T2

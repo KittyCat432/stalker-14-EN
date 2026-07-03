@@ -22,6 +22,8 @@
             False: { visible: false }
     - type: Item
       size: Normal #Stalker EN
+      shape:
+        - 0,0,2,1
     - type: RepositoryItem #Stalker EN
       categoryName: repository-medicine-category
     - type: Speech
@@ -87,7 +89,9 @@
         map: ["enum.PowerDeviceVisualLayers.Powered"]
         shader: unshaded
   - type: Item
-    size: Normal
+    size: Normal #Stalker EN
+    shape:
+    - 0,0,1,1
   - type: ToggleCellDraw
   - type: PowerCellDraw
     useCharge: 100
@@ -98,6 +102,8 @@
     doAfterDuration: 6
   - type: DoAfter
   - type: UseDelay
+  - type: STWeight # stalker EN
+    self: 0.75
 
 - type: entity
   id: DefibrillatorSyndicate

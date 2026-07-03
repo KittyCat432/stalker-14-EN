@@ -115,6 +115,7 @@
     # Acidic group - 2
     ZoneArtifactPellicle: 1
     ZoneArtifactBaloon: 8
+
   categories:
   - name: shop-category-weapons
     priority: 1
@@ -171,4 +172,5 @@
     priority: 7
     items:
       HandLabeler: 1
+      ClothingBeltPocketPouch: 3
       STIrradiationkit: 5

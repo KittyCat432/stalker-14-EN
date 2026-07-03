@@ -29,27 +29,35 @@
       739FMJBoxCink: 4
       754FMJBoxCink: 4
 
-  - name: shop-category-armor
+  - name: shop-category-grenades
     priority: 4
+    items:
+      SignalSmoke: 100 # BE NORMAL WITH IT.
+
+  - name: shop-category-armor
+    priority: 5
     items:
       STClothingOuterArmorLightPlateVestBasePSZ7v3: 4
       ClothingHeadHelmetBerill5MMilitary: 4
       ClothingHeadAssaultHelmetMilitary: 4
+      # late game
+      ClothingOuterArmor6B13: 12 # T4 PvP
+      ClothingHeadHelmetBulatMilitary: 20 # T4
 
   - name: shop-category-storage-and-containers
-    priority: 5
+    priority: 6
     items:
       ClothingBackpackDuffelOliveTacticStalker: 4
       ClothingBackpackDuffelMilitaryOlive: 4
 
   - name: shop-category-raincoats-and-gasmasks
-    priority: 6
+    priority: 7
     items:
       # Gas Masks
       ClothingMaskM51: 8 # T4
 
   - name: shop-category-modules
-    priority: 7
+    priority: 8
     items:
       STModuleScopeRiflesT1Ru: 1
       STModuleSniperSightT1: 1
@@ -656,6 +664,7 @@
       STClothingOuterArmorLightPlateVestBasePSZ7v1: 7800 # T3 - PVP
       STClothingOuterArmorLightPlateVestBaseANAgray: 7800 # T3 - PvP
       STClothingOuterArmorLightPlateVestBaseANAgreen: 7800 # T3 - PVP
+      STClothingOuterArmorMilitaryBadger: 8500 # T3 - PVP, Mix
 
   - name: shop-category-storage-and-containers
     priority: 7
@@ -673,6 +682,9 @@
       ClothingBeltBandolierStalker: 20 # T1 - PVE
       ClothingBeltTarzanBlack: 200 # T1 - PVP
       ClothingBeltTarzanGreen: 200 # T1 - PVP
+      STClothingCapeTacticalRigBrown: 600
+      STClothingCapeTacticalRigGreen: 600
+      STClothingCapeTacticalRigBlack: 600
       # Containers
       MedkitCMSStalker: 450 # T1
       MedkitGrizzlyStalker: 850 # T2
