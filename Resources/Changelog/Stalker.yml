@@ -3515,5 +3515,24 @@
   id: 397
   time: '2026-07-02T22:43:15.733438+00:00'
   url: https://github.com/stalker-14-EN/stalker-14-EN/pull/1022
+- author: crocodilecarousel
+  changes:
+  - message: Medical bundles added to the Igor warzone shop
+    type: Add
+  - message: High tier gear added to Military premium shop
+    type: Add
+  - message: Gear added to some dollar vends
+    type: Add
+  - message: Forester now buys all high tier artifacts
+    type: Fix
+  - message: General shop updates
+    type: Tweak
+  - message: Ammo costs lowered
+    type: Tweak
+  - message: Jerky sell price lowered
+    type: Tweak
+  id: 398
+  time: '2026-07-03T19:05:31.253485+00:00'
+  url: https://github.com/stalker-14-EN/stalker-14-EN/pull/1023
 Name: Stalker
 Order: -1
