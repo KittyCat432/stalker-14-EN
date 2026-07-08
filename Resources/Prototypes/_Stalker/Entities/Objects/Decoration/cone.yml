@@ -10,8 +10,8 @@
   - type: Sprite
     sprite: _Stalker/Objects/Decoration/cone.rsi
     state: cone
-  - type: Physics
-  #- type: Fixtures # EN start - will get people stuck and makes little sense anyways
+  #- type: Physics # EN start - will get people stuck and makes little sense anyways
+  #- type: Fixtures
   #  fixtures:
   #    fix1:
   #      shape:
