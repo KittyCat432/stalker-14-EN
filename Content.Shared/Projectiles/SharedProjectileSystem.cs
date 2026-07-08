@@ -1,4 +1,4 @@
-using Content.Shared._FinalHorizon.Projectiles.Cover;
+using System.Numerics;
 using Content.Shared._RMC14.Weapons.Ranged.Prediction;
 using Content.Shared.Administration.Logs;
 using Content.Shared.Camera;
@@ -24,7 +24,6 @@ using Robust.Shared.Physics.Systems;
 using Robust.Shared.Player;
 using Robust.Shared.Serialization;
 using Robust.Shared.Utility;
-using System.Numerics;
 
 namespace Content.Shared.Projectiles;
 
@@ -65,15 +64,6 @@ public abstract partial class SharedProjectileSystem : EntitySystem
         if (args.OurFixtureId != ProjectileFixture || !args.OtherFixture.Hard
             || component.ProjectileSpent || component is { Weapon: null, OnlyCollideWhenShot: true })
             return;
-
-        // FH start
-        var coverEvent = new CoverHitAttemptEvent(uid, component);
-        RaiseLocalEvent(args.OtherEntity, ref coverEvent);
-        if (coverEvent.Missed)
-        {
-            return;
-        }
-        // FH end
 
         ProjectileCollide((uid, component, args.OurBody), args.OtherEntity);
     }

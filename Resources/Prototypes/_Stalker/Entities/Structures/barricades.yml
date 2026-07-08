@@ -6,9 +6,6 @@
   - type: Sprite
     sprite: _Stalker/Structures/barricades.rsi
     state: barricade_full
-  - type: Cover # EN start
-    hitChance: 0.75
-    closeMissDistance: 1 # EN end
 
 - type: entity
   id: STBarricadeBlock
@@ -18,9 +15,6 @@
   - type: Sprite
     sprite: _Stalker/Structures/barricades.rsi
     state: barricade
-  - type: Cover # EN start
-    hitChance: 0.50
-    closeMissDistance: 1 # EN end
 
 #Directional Barricade
 - type: entity
@@ -32,6 +26,3 @@
     sprite: _Stalker/Structures/barricades.rsi
     state: barricade_directional
     noRot: false
-  - type: Cover # EN start
-    hitChance: 0.60
-    closeMissDistance: 1 # EN end

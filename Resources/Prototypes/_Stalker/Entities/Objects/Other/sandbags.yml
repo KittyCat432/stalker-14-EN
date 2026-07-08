@@ -37,6 +37,3 @@
             max: 1
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
-  - type: Cover # EN start
-    hitChance: 0.80
-    closeMissDistance: 3 # EN end
