@@ -1,4 +1,3 @@
-using System.Numerics;
 using Content.Shared._Stalker.Weapon.Module.Effects;
 using Content.Shared.Actions;
 using Content.Shared.Camera;
@@ -15,6 +14,8 @@ using Content.Shared.Weapons.Ranged.Systems;
 using Content.Shared.Wieldable;
 using Content.Shared.Wieldable.Components;
 using Robust.Shared.Containers;
+using Robust.Shared.Physics;
+using System.Numerics;
 
 namespace Content.Shared._Stalker.Weapon.Scoping;
 
@@ -35,6 +36,7 @@ public abstract partial class STSharedScopeSystem : EntitySystem
     [Dependency] private readonly SharedHandsSystem _hands = default!;
     [Dependency] private readonly SharedPopupSystem _popup = default!;
     [Dependency] private readonly PullingSystem _pulling = default!;
+    [Dependency] private readonly SharedTransformSystem _transform = default!; // EN
 
     public override void Initialize()
     {
@@ -282,6 +284,7 @@ public abstract partial class STSharedScopeSystem : EntitySystem
         if (TryComp(user, out ScopingComponent? scoping))
             UserStopScoping((user, scoping));
 
+        direction = _transform.GetWorldRotation(user).GetCardinalDir(); // EN change
         scope.Comp.User = user;
         scope.Comp.ScopingDirection = direction;
 

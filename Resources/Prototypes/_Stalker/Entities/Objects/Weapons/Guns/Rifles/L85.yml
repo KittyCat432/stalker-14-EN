@@ -49,7 +49,7 @@
           tags:
           - STCartridge556
   - type: Scope
-    delay: 0.3 # EN
+    delay: 0.5 # EN
     zoom: 1.3 # EN
     offset: 6 # EN
   - type: STWeaponDamageFalloff
