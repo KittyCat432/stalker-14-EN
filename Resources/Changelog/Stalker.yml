@@ -3550,5 +3550,19 @@
   id: 400
   time: '2026-07-10T00:24:12.769616+00:00'
   url: https://github.com/stalker-14-EN/stalker-14-EN/pull/1027
+- author: dallaszzz
+  changes:
+  - message: Tree sprites always fade when someone is under them. No more tree camping.
+    type: Tweak
+  - message: Binocs take longer to use and rifle scopes are slightly more powerful.
+    type: Tweak
+  - message: Removes collisions on traffic cones and makes vanilla chairs unpullable.
+    type: Fix
+  - message: Makes scopes use the direction you have when ending the doafter instead
+      of when you started it.
+    type: Fix
+  id: 401
+  time: '2026-07-10T19:55:25.834768+00:00'
+  url: https://github.com/stalker-14-EN/stalker-14-EN/pull/1026
 Name: Stalker
 Order: -1
