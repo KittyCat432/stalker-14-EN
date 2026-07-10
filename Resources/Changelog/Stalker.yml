@@ -3564,5 +3564,16 @@
   id: 401
   time: '2026-07-10T19:55:25.834768+00:00'
   url: https://github.com/stalker-14-EN/stalker-14-EN/pull/1026
+- author: SnekiChaos
+  changes:
+  - message: Re-added Bandit USD Shop
+    type: Tweak
+  - message: Added missing faction flags to one the gates.
+    type: Fix
+  - message: Added more lights to depot to make it less dim.
+    type: Tweak
+  id: 402
+  time: '2026-07-10T21:03:22.867164+00:00'
+  url: https://github.com/stalker-14-EN/stalker-14-EN/pull/1028
 Name: Stalker
 Order: -1
