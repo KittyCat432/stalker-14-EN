@@ -10,15 +10,15 @@
   - type: Sprite
     sprite: _Stalker/Objects/Decoration/cone.rsi
     state: cone
-  - type: Physics
-  - type: Fixtures
-    fixtures:
-      fix1:
-        shape:
-          !type:PhysShapeAabb
-          bounds: "-0.2,-0.2,0.2,0.2"
-        density: 155
-        mask:
-        - TableMask
-        layer:
-        - LowImpassable
+  #- type: Physics # EN start - will get people stuck and makes little sense anyways
+  #- type: Fixtures
+  #  fixtures:
+  #    fix1:
+  #      shape:
+  #        !type:PhysShapeAabb
+  #        bounds: "-0.2,-0.2,0.2,0.2"
+  #      density: 155
+  #      mask:
+  #      - TableMask
+  #      layer:
+  #      - LowImpassable # EN end
