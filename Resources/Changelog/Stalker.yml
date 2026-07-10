@@ -3543,5 +3543,12 @@
   id: 399
   time: '2026-07-03T20:39:00.275831+00:00'
   url: https://github.com/stalker-14-EN/stalker-14-EN/pull/1024
+- author: TheOverwatchVoice
+  changes:
+  - message: Fixed invisible wall blocking Garbage teleport.
+    type: Fix
+  id: 400
+  time: '2026-07-10T00:24:12.769616+00:00'
+  url: https://github.com/stalker-14-EN/stalker-14-EN/pull/1027
 Name: Stalker
 Order: -1
