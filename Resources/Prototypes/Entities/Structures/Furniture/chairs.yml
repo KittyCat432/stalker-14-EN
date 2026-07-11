@@ -26,7 +26,7 @@
   - type: Strap
     position: Stand
     buckleOffset: "0,-0.05"
-  - type: Pullable
+  #- type: Pullable # EN change
   - type: Damageable
     damageContainer: Inorganic
     damageModifierSet: Metallic

@@ -1,4 +1,5 @@
 using Content.Client.Gameplay;
+using Content.Shared.Mind.Components;
 using Content.Shared.Sprite;
 using Robust.Client.GameObjects;
 using Robust.Client.Input;
@@ -79,6 +80,17 @@ public sealed class SpriteFadeSystem : EntitySystem
         {
             _points.Add((_transform.GetMapCoordinates(_playerManager.LocalEntity!.Value, xform: playerXform), false));
         }
+
+        // EN start - make players fade out trees regardless of the mouse
+        var query = EntityQuery<MindContainerComponent>();
+        foreach (var ent in query)
+        {
+            if (TryComp(ent.Owner, out TransformComponent? entityXform))
+            {
+                _points.Add((_transform.GetMapCoordinates(ent.Owner, xform: entityXform), false));
+            }
+        }
+        // EN end
 
         if (_stateManager.CurrentState is GameplayState state && _spriteQuery.TryGetComponent(player, out var playerSprite))
         {

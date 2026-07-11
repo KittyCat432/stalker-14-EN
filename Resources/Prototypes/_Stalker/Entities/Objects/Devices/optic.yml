@@ -17,7 +17,7 @@
   - type: Craftable
   - type: Scope
     zoom: 1.65
-    delay: 0.4
+    delay: 1.2 # EN
     offset: 14
     useInHand: true
   - type: RepositoryItem # stalker-en change
