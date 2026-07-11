@@ -4,8 +4,8 @@ meta:
   engineVersion: 268.0.0
   forkId: ""
   forkVersion: ""
-  time: 07/11/2026 08:30:45
-  entityCount: 16445
+  time: 07/11/2026 12:47:39
+  entityCount: 16450
 maps:
 - 1
 grids:
@@ -44539,10 +44539,22 @@ entities:
     - type: InsideEntityStorage
 - proto: ClothingOuterArmorSevaMonolithPriest
   entities:
-  - uid: 10773
+  - uid: 10905
     components:
     - type: Transform
-      pos: -206.50768,-152.59023
+      pos: -176.50839,-74.44907
+      parent: 1
+    missingComponents:
+    - Item
+    - Physics
+    - Fixtures
+    - Pullable
+- proto: ClothingOuterArmorSSP24Topaz
+  entities:
+  - uid: 10772
+    components:
+    - type: Transform
+      pos: -176.48723,-73.49669
       parent: 1
     missingComponents:
     - Item
@@ -72433,7 +72445,7 @@ entities:
       pos: -175.5,-71.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -6854.1514
+      secondsUntilStateChange: -10696.728
       state: Opening
   - uid: 2249
     components:
@@ -73760,6 +73772,24 @@ entities:
     components:
     - type: Transform
       pos: 37.5,1.5
+      parent: 1
+  - uid: 10903
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -176.5,-73.5
+      parent: 1
+  - uid: 10904
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -176.5,-74.5
+      parent: 1
+  - uid: 10907
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -176.5,-72.5
       parent: 1
   - uid: 12782
     components:
@@ -100703,10 +100733,10 @@ entities:
       parent: 1
 - proto: STClothingOuterArmorSSP99Project
   entities:
-  - uid: 10772
+  - uid: 10906
     components:
     - type: Transform
-      pos: -207.5233,-151.54262
+      pos: -176.47963,-72.63002
       parent: 1
     missingComponents:
     - Item
@@ -109708,11 +109738,17 @@ entities:
     - type: Transform
       pos: -184.5,-97.5
       parent: 1
+    missingComponents:
+    - Damageable
+    - Destructible
   - uid: 14542
     components:
     - type: Transform
       pos: -183.5,-95.5
       parent: 1
+    missingComponents:
+    - Damageable
+    - Destructible
   - uid: 14543
     components:
     - type: Transform
@@ -109720,6 +109756,7 @@ entities:
       pos: -181.5,-96.5
       parent: 1
     missingComponents:
+    - Damageable
     - Destructible
   - uid: 14544
     components:
@@ -120190,8 +120227,8 @@ entities:
   - uid: 10766
     components:
     - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: -207.5,-151.5
+      rot: 3.141592653589793 rad
+      pos: -176.5,-72.5
       parent: 1
     missingComponents:
     - Damageable
@@ -120199,18 +120236,25 @@ entities:
   - uid: 10767
     components:
     - type: Transform
-      rot: 3.141592653589793 rad
-      pos: -207.5,-151.5
+      rot: -1.5707963267948966 rad
+      pos: -176.5,-74.5
       parent: 1
     missingComponents:
     - Damageable
-    - ExaminableDamage
     - Destructible
   - uid: 10771
     components:
     - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: -206.5,-152.5
+      pos: -176.5,-74.5
+      parent: 1
+    missingComponents:
+    - Damageable
+    - Destructible
+  - uid: 10773
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -176.5,-72.5
       parent: 1
     missingComponents:
     - Damageable
@@ -120218,8 +120262,8 @@ entities:
   - uid: 10774
     components:
     - type: Transform
-      rot: 3.141592653589793 rad
-      pos: -206.5,-152.5
+      rot: -1.5707963267948966 rad
+      pos: -176.5,-73.5
       parent: 1
     missingComponents:
     - Damageable
