@@ -3575,5 +3575,14 @@
   id: 402
   time: '2026-07-10T21:03:22.867164+00:00'
   url: https://github.com/stalker-14-EN/stalker-14-EN/pull/1028
+- author: SnekiChaos
+  changes:
+  - message: Fixed Agro-Garbage Warper
+    type: Fix
+  - message: Moved Display Case so people can't get stuck
+    type: Tweak
+  id: 403
+  time: '2026-07-12T03:51:22.879636+00:00'
+  url: https://github.com/stalker-14-EN/stalker-14-EN/pull/1030
 Name: Stalker
 Order: -1
